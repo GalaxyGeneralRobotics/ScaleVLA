@@ -1,0 +1,1142 @@
+{
+ "task": "PnPCounterToSink",
+ "env_name": "robocasa_panda_omron/PnPCounterToSink_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 96,
+ "scanned_per_scene": {
+  "1,1": 18,
+  "2,2": 18,
+  "4,4": 16,
+  "6,9": 18,
+  "7,10": 26
+ },
+ "created": "2026-11-04T21:33:57+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "c25f7cb3bd6ea8282b0c092e43d88edfd8d3f42399a4509ed8189431b43e74d0",
+   "image_sha256": "3aa881afdaa022466bd794bb797ae26011badc19321ee842278a712b4f8eea62",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the bottled drink from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bagged_food"
+    },
+    {
+     "name": "distr_sink",
+     "category": "water_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "e224c5e5963cd89f1a73fbfef01af500901663d4845ddddf98fb6774150bfafb",
+   "image_sha256": "c1ccbd588b4ecde6c574c4aea8a3793b80c3bf4e9605bdca99e97fc034cd1592",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the squash from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spoon"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "2f56e1e186cca475defc385050dba5cff52043bb1b798a8cd3ab995f74c201c2",
+   "image_sha256": "8be68d8b0f75e0d19b8c47e7aac332f8a398c0339003624e3f18039d0243aa15",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the carrot from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar"
+    },
+    {
+     "name": "distr_sink",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "c9ce4b0d23e21662a43912d0e101a266942b56445b74aa51f49457468f0d9719",
+   "image_sha256": "ca8b04901f09442bc81a728adb52cebf75bce953bb9501d7471036996571f966",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the avocado from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "avocado"
+    },
+    {
+     "name": "distr_counter",
+     "category": "condiment_bottle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "9e50f177e01561167783495d03c7db2c151aa0ef7155d130c39a80db1a8611f3",
+   "image_sha256": "12017d2985385e8b0b5cf97572efbed89ae17ee00d40982334bc94a7f6538a25",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the sponge from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mug"
+    },
+    {
+     "name": "distr_sink",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "87bedb8e09f158bad46ca92177e5604e6fd6a96d1c8940905fade7ad4cc60a2b",
+   "image_sha256": "e0b982e8b8265d768b3dbcb1d30671bf697b003f34f40c87c18188539d778751",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the tangerine from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "chocolate"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "e6a4d5a2cc19185e2e649a326562b0bca6e4eb3565f4692cd7320ac628e53f68",
+   "image_sha256": "6198f158ebafffd43be65cda680c43c25e0678babe88c650535c0b4c0e03ff3b",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the corn from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "b4d127b1587493bb3d280bd38eb1e091be3593e5e4a776314b54aff6a122d0bb",
+   "image_sha256": "854e863030cfe138d2ef7f9d66a11f6364a9e19dcca8c5b866bec07c760710f8",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the soap dispenser from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_counter",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_sink",
+     "category": "avocado"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "1743748075971f01f4274a371758b40c0ba5ae64af48dd91258d0c250cf0a295",
+   "image_sha256": "a35537b3de8438fdb3ff61eb7511953605c1b32b6fb573d8e158415046c883a7",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the wine from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "wine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "ketchup"
+    },
+    {
+     "name": "distr_sink",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "386089be6e1c7a8ccb1682d2c0a0441d7408ad5bf51183c0f98b93398e48042b",
+   "image_sha256": "72eda437fa4f728bc1573eb78d74c41cfdd31cb3485b2911c2d5e91c94c3348c",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the egg from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "distr_counter",
+     "category": "condiment_bottle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "kiwi"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "40ff6eb8755a869d2d6acb210c3982cd080819356a8935be68d45a23fc89c994",
+   "image_sha256": "58a1d709591d36d11d31acbdc7e5fd79f4d4bb2f9df84deb2d63640738550673",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the wine from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "wine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "egg"
+    },
+    {
+     "name": "distr_sink",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "1aa7d9638625427f929c617b4736ba0320e11a84f72034b773c8531f64931fb1",
+   "image_sha256": "b534d9e4fbce7373b58d160ccbc2de0ad6d76dfeb42455026acf579c7280c460",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the bell pepper from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kettle_non_electric"
+    },
+    {
+     "name": "distr_sink",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "455aaf2702a166c4778f8c12aa4988c931ea30bba76bb601b031e42b15c6e3ac",
+   "image_sha256": "41066b6f1861c53ad831db7aab57e7a79cd1b719928d1a47d58dad04dc401b36",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the canned food from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter",
+     "category": "lime"
+    },
+    {
+     "name": "distr_sink",
+     "category": "banana"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "766dc9ce84312c1546b5f6e502a58e8d293df24e26bda011ab52a0a371c1703a",
+   "image_sha256": "0ee6fa11a533125251ed5e7bad405bd098b682eca87bff048f9f25084998d833",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the water bottle from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "water_bottle"
+    },
+    {
+     "name": "distr_counter",
+     "category": "orange"
+    },
+    {
+     "name": "distr_sink",
+     "category": "fork"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "e752684adb8e882faa663fe0515d3d2bce5da6f24ebc7b36088a007f3e027982",
+   "image_sha256": "111e29627d06ddc14dbbe06e113000f22b7308d4e77dcf3af9d07706ab112390",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the kiwi from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_counter",
+     "category": "pear"
+    },
+    {
+     "name": "distr_sink",
+     "category": "banana"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "090da6548f70f1b7c3e534e8011d8faa1ce16b3902ce751110ece43a5772a3d3",
+   "image_sha256": "39bc30fe6d1802aa03ea5858d0563c79e63f30144512d3131caf916eb73349a7",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the eggplant from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "077d6ef287b37166895da7470ee8038b519f0d4c6ceb575e1fc1ec4733ff8ee2",
+   "image_sha256": "e8857f171994da7ccf1b095b5aac8ed3d3b1e75d05a560c289301265bc22a02f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the lime from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "lime"
+    },
+    {
+     "name": "distr_counter",
+     "category": "donut"
+    },
+    {
+     "name": "distr_sink",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "58d13f22eada42abb7993b800518d44fd3f44f71e1a7d13faf891bcf7bba80bd",
+   "image_sha256": "b7f2011fe72b9b339441bc66f35f8163d47952ee66017aa4668b287c3f459f9a",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the milk from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "milk"
+    },
+    {
+     "name": "distr_counter",
+     "category": "donut"
+    },
+    {
+     "name": "distr_sink",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "f8220cb597fdea51105b64d2a53b89187baef32619bccb2a1aa5d10bbc91aea0",
+   "image_sha256": "72180bd1066ee3f15e0bb83cf4064eeeed4fc242f7953955438294f1f2ee18f8",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the boxed drink from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "boxed_drink"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "c9d990a75b1281d922c852db0ec41c516e5fc69b908a1978a40f135e5cc1c442",
+   "image_sha256": "d156ae3e0a9adb6606cb9cd10a81fa3f09231dd00961488a83776498a6fec8d9",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the corn from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bottled_water"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "1b28132cccc7aac1fda2c232987e05d659ff2015a642286307bf5b8f12a2d53b",
+   "image_sha256": "009814ff20c98298b8e60cb2e73f53ba4eca79da0437bfd400bdc87e46407f3f",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the jam from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "jam"
+    },
+    {
+     "name": "distr_counter",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bottled_water"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "728205fab9ce541bedb87922b55c1472ee822ce94f63b94ff8e1aafade0e9794",
+   "image_sha256": "8d325f91e881cfa014bbc58af1ddc2dfe512e0f478418fbfdb509e588016cd7c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the potato from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "distr_counter",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_sink",
+     "category": "soap_dispenser"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "4bdb753feaacb96eb7b3e73e6fe224ef079bd77ebfb4dc56bf6c5dccfa008399",
+   "image_sha256": "52fff189dd0f668eca4120943fa2cd2c84a3421d52d908cf3a750a5981e15de1",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the egg from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "distr_counter",
+     "category": "jug"
+    },
+    {
+     "name": "distr_sink",
+     "category": "sponge"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "ccc612bee8b16bd09eb67a266d3270d09cc1b1c39719e87d869a63effeb598b6",
+   "image_sha256": "0f5200174f4334f9f06f2c2eb650119b69f336f6e767aa3642bd307c2a2b53e0",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the bar soap from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "c2fd579a758d76ff9f071ee64d4eb6d4e020b85033231560b4a272f11fc7151e",
+   "image_sha256": "a2485e2dadac6d583155f17dc0d0bcfac717c5b96e1379c11cb9e5192760dbe0",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the cup from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter",
+     "category": "wine"
+    },
+    {
+     "name": "distr_sink",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "911e62f1eb10cc963d64f809a68a106eea73c45aeaa7000670f0f81cc8f27cfa",
+   "image_sha256": "1dd6736679f2edd5f39957505e6b04fae7c27ed94f18971e948beea15300c5cc",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter",
+     "category": "coffee_cup"
+    },
+    {
+     "name": "distr_sink",
+     "category": "orange"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "02ad82256262e1b5c061eca33f2888331547470fb3a9321056c42ece73001e39",
+   "image_sha256": "a2bf36ca09403118ac264315097f5b2dd490d36a88babd759c3733858827beed",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the can from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "can"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_sink",
+     "category": "egg"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "5ffe4ca42d83172af310dbe07fa80f4e12dc9147c31dd18fb45b6cf28ea484af",
+   "image_sha256": "534b2a7a449bdfafa52e10d2928143226b13eb90540637ade7969a22be7028e2",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the eggplant from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "8aad59e1ae1794e6a322ab39212b04162824ffa45519a2edd9f5a64e7e938ee4",
+   "image_sha256": "08e505aeb520a4f3e782812ec50b5bebfd0d98aa6b71ebcc80ccf329d7401153",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the orange from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter",
+     "category": "banana"
+    },
+    {
+     "name": "distr_sink",
+     "category": "pear"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "5ad6476dd77db08998f39b000138a52910cb4f222d72671940ccacd2df23c5c4",
+   "image_sha256": "0146a2c7e31e5bcf579d1e567400694a060e8cc2276d00bbb8733d61b524dade",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the orange from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cup"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "965a657e7cd3726a9b2af5834bc422e73851510fc712bb92aa45ea8ef03b9ebb",
+   "image_sha256": "6304c4563a5df3b7483ab5bfb0bc9e05f212ede8ee8a2c0306f8efbe63ad3eae",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the bar soap from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter",
+     "category": "candle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "avocado"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "947439c6039f24ab26555755e691113ad524c5bbc90d93681cf1697d9f5c677e",
+   "image_sha256": "b571a0cf09f1408668b3bf8e1a4669768bb8c03fa1069c7f7bc5ba385dc0fdf2",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the soap dispenser from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_counter",
+     "category": "orange"
+    },
+    {
+     "name": "distr_sink",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "c63efded8b36007cef446b3dfb8ba149e9b4e2a1ab9fed023018e02293b10aa1",
+   "image_sha256": "7deb990438eaec02ba975edea07455667a670f6404e2d29cd2d1c2281808f98d",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the broccoli from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_counter",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_sink",
+     "category": "knife"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "86d10566458a5a2629dbeb756fde527b98dae060a4631947fc675d0b44d03c46",
+   "image_sha256": "c610dd35e7fb27738d2e3429d07c2b0945cccef0ba9cdb07a180163ad1b738bc",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the potato from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bagged_food"
+    },
+    {
+     "name": "distr_sink",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "324aeb3bf6da7a34db5882745f39c5fd6c259a2ebb2c076bcaf0aa011ef08710",
+   "image_sha256": "1b5b4485d9ac1cf484d9e05301bf600fbd49fab1750d8b5b939d332e6aa060b1",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the sponge from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_counter",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "508f9df0fbd4d52b8949e13288513d0364e0cb1184576ffea922c6905cf2ee69",
+   "image_sha256": "cfa595bcd48d314b575f7f516b9269239f38e843de2d773f32b8012387ae6b2d",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the avocado from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "avocado"
+    },
+    {
+     "name": "distr_counter",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "distr_sink",
+     "category": "teapot"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "5f78f2b0066316617caa4c26c3c0d0ebf463a26e583252b789a888d99047686b",
+   "image_sha256": "60f90467269e87b18ca0f051037c944e03c9d02d79a4796897f24162a7c84f66",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the potato from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "distr_counter",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "8b7ca1ea6c435bc708a994cf095d3d9f5f5693bdd94a86d803a22244e7d40aad",
+   "image_sha256": "f4e62a9afaa610b442658f568ba4ec7a46942033d3daad158287edb6d2d50420",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the tangerine from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_sink",
+     "category": "avocado"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "44df2573b07efdccb7f6aeed88513e87c5703376b304f31f20f72dc3566d1b1b",
+   "image_sha256": "ab65835aa9961f30462e39df6c8a70e111d2a6ab16a45a04d27d3228b1efc49b",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mushroom from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_sink",
+     "category": "knife"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "53eb5335902db50f84240ee7bba9ab5dd0eab2260d362ed21eb61e245741f98a",
+   "image_sha256": "b0c07b61dd41998ef5e1a5392396f0bea2e31e38438d5d8d88e8fbd44f34c4bc",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the spray from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "spray"
+    },
+    {
+     "name": "distr_counter",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_sink",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100046,
+   "sim_state_sha256": "37b9a199eb4c2afda3bc1ea2be741997ac30724d6e0fec4610ccb254a452afb5",
+   "image_sha256": "37b4855c915b043f92622a437b60c0bc549bc05364135343d99b695d9628f083",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the yogurt from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "yogurt"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bagel"
+    },
+    {
+     "name": "distr_sink",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "da1b92ad56e1641222afd8a5409f9d620cac90724b61dcbbe931a5251413188a",
+   "image_sha256": "3dde0a1562e19b58ebc3de50633179911b818416f3fb0564cc698a99bc0f3532",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the beer from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100048,
+   "sim_state_sha256": "ce6318d223ccbb1fc400289a156d9fc32254a44c7a0af9e47bdd4b25a25b0fb3",
+   "image_sha256": "5d8a266f12845c7a8bbe336d65c38da5b9a23cf2a2b96d14c78c6013697b9e47",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the bowl from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bowl"
+    },
+    {
+     "name": "distr_counter",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_sink",
+     "category": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": 100049,
+   "sim_state_sha256": "ef8f712807ca29a0a1b92f1fb277ac57e94e79496b8ec06850330dbe0d760a39",
+   "image_sha256": "15d8281c6d87b91b915d50728ddada9c6883af07f39440c2bee36d3d648343ea",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the fish from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "fish"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bread"
+    },
+    {
+     "name": "distr_sink",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "a3f30cb1197491f6ef3c1ccf0d0c1e271060f64ccfdbdaf7277a1cdb9ee36f2f",
+   "image_sha256": "436ad872bdcf2715e3a89c313622d4d0629747fdc02d144d45d65e45c13d7348",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the corn from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "distr_sink",
+     "category": "pear"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "b40a5ce8afb7d949856d8fe7b5cb10887c3416c23669d86d9e5ff272fcc2e3fb",
+   "image_sha256": "29f7062fc452bd32f288d6de3bf14773b8e77d6a4caaf5b677842220298b86ac",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the squash from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter",
+     "category": "banana"
+    },
+    {
+     "name": "distr_sink",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "b774fff11355021a39ca5a27b546a2c5a88dd7a33dd5cf3938be797f4a9467ec",
+   "image_sha256": "dafa540464be1c1fdf2d5d2096f2ab1abfa2dc4450a4645ad66422be8e3e3d06",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the lemon from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_counter",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100060,
+   "sim_state_sha256": "e0d3d9ff8216043aaad9ec4657e3ace0262345769339713731f84279578d5bcb",
+   "image_sha256": "dd9f2b81a1716974de6b06756308bd64ffe5cd71f7a6a496d2c06deb45bbf874",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the tangerine from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "condiment_bottle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100061,
+   "sim_state_sha256": "e764d5b958390a22add7d50dabaeb94fb30a27f6a9aebe0f23b2095453449a32",
+   "image_sha256": "86b766161682f73da60f2ee19053b5f0789a5bc7b5d583a8f32b64ba34df78b9",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the carrot from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter",
+     "category": "beer"
+    },
+    {
+     "name": "distr_sink",
+     "category": "ketchup"
+    }
+   ]
+  },
+  {
+   "id": 100064,
+   "sim_state_sha256": "9b81c93a991e733097f38a6311690234ae910a66ab67fd9c780ea15402d01803",
+   "image_sha256": "a8231fb376922e14a6d117268143c042003a37f1e9e8316a17b2beb518bb74d0",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the carrot from the counter and place it in the sink",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter",
+     "category": "waffle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "jam"
+    }
+   ]
+  }
+ ]
+}

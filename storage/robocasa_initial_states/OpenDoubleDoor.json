@@ -1,0 +1,1150 @@
+{
+ "task": "OpenDoubleDoor",
+ "env_name": "robocasa_panda_omron/OpenDoubleDoor_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 12,
+  "4,4": 16,
+  "6,9": 11,
+  "7,10": 15
+ },
+ "created": "2026-11-04T21:28:06+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "093225ab67c31b52d61ed62722ac72e13f70075c0ac895494c851d3f7f774a1f",
+   "image_sha256": "630096f9f37e7e3c0630bfbf72ecb1d3c6e58fb3a4aa350fe3c42f3420427f12",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "donut"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "knife"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "84d062ce4e66d1c330b1346c9a6497f3e7df64a71168cf5704ea26fa5b1fd3ab",
+   "image_sha256": "379b0268df68fe42a6632df3053f57ad7ccf0fa75c2489524f6a6a8c1bdf8aec",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "spray"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "chocolate"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "ee490c6f63c2d8ebf011c081dffc5d1bb145906947d8b6eb6a17c43b05d52969",
+   "image_sha256": "2c943bc2ed274be0a965fa366c6a7983d19b3a37248e9a4c86a5c684e6f3c657",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cupcake"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "08a59703c4d4aac6dba47f85c44237050e0c4d1bd062fb8f652964067f798a37",
+   "image_sha256": "c0d4e579d89e10548cad5568e08fafe5a6a2b6bad81d8b3441017f84e5a0f894",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "coffee_cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "kettle_electric"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "8aee4d6f189da79cdb23783825dba99881179a76e9851e0bf7fb9e5643b60c79",
+   "image_sha256": "eb951dab6f5d2058e0c08fd9e6d36fdae651708c0c8662827527b8f54faee734",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "b0070299166629527ba06343bf661e51cd5aab8d4e3ca32b61faf3f071a109ee",
+   "image_sha256": "06ed3b28f856702747a8ca28b573f8ebf3a737310dbd88111114730543092ecd",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "fork"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "8f0c782b940fefc6a22b561c4dcd7014f93cc63ea8e556b53bca8c86c76732c5",
+   "image_sha256": "9e49a74dd17d7dd160c45f8daa5cd7d7c9329a76db5f1b33b5f0753bef1fbaf1",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "pot"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "c69e3fa92b7b43727234230e51de264e77ef6920897a97225012a0f3389b7561",
+   "image_sha256": "36a9088a8801403523d030c368c0416f2ab17f34bc3341b846c8d0e5903f0958",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "onion"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "scissors"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "cd6cb2958f8c87e92765e03186247464d6641eba385dd4018cdb625c44b6bd24",
+   "image_sha256": "fff8d10f27e5991d4fda21ab204afe8b20a97f397c00bdb39b3a7173c4ef5015",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "condiment_bottle"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tray"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "8839a522cd5c1228fe2072627861be6b9f5190b1735c19adc6c9e1960bae3e99",
+   "image_sha256": "5d8e3400a281867df6b06682f78dba6d97479e2ee21f289d6de5eae3f234c593",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "mango"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bowl"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "b93474b633df033b188d2a5519350a663491fec0af1e57067e15c4a7806748f7",
+   "image_sha256": "0effd090e12c2372f3a67ea18137a675751076afe50e7f90b702c1c69ddbf99c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cupcake"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "b92590d7455e87a4a44bbb6a65537f55d96c3c6f5130878cfc2fb007009f8102",
+   "image_sha256": "c246f706cbcc4a56ae10cb57f1613fda43d21120cfb0f9875db3d34b22626691",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "apple"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "bar_soap"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "8631e3810dc30567207ed040cc68e899146db37d9441489eff0248778d1dc842",
+   "image_sha256": "90431fbe06de5f07d4e35c91959ba17d8b33d94c7f729ad10214d653908399d1",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "ac3e9ea6612dc580760b13185efff695ce0f547f12c71d87b9872095938bc0b9",
+   "image_sha256": "7cd2fd8472e56c13f215e3492446dce5d3622cf4e59dc7813d78c3bddbc43f7a",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "yogurt"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "pot"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "bowl"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "a97bf87ff56a1c96673cc37be8e09b96c716e151a6f736d0da8f4d7cda44cf3e",
+   "image_sha256": "05de79fe9cdbc3823e8274d681e9d446a28d3a3260d3d7747dc873bff5f13f39",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "tomato"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mango"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "bagged_food"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "925c8572c4ebebf63d4f9ce11b4dd056e4c8397c543c8d2604dac3ec4af5d888",
+   "image_sha256": "3b2b28f702b7fe091f2d78ed24388d9b33b2458909c3db1216e6c33c333601ce",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "beer"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "ac2de7d7a0d0456f4c4232597dacf3b8b2c4c872e0b08dd52c75a117aaa222dd",
+   "image_sha256": "60df4b68291947834c8472c1cb3878842929d80ef2d4a665938d4ba0b3601251",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "egg"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cereal"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "shaker"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "661fe428d3b7d21254d5c66bb226dc94cdf8bcde045335607232a02bc9d129b3",
+   "image_sha256": "d8cfb3d96b143a439d455823b9b0982beecb8a9a8b0a1355dbe04426666c05d6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "banana"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "banana"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "4bd50f2b64eb6385f3c884ddf2a83d72f79d86febae7aef6a9066adeb85d194b",
+   "image_sha256": "390ee278dbf1302fa5e5d916f8c486359547f3893c323cbc66ebc6ad621cb77f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "294dcc8dbb994f45b9404e42625c4fc534071c8ba91e9aba5b20a4f3fc839e83",
+   "image_sha256": "1dd77148aba3d69047d132bbe164e9d38aecf2fca0321e8c718c6557ff5f0dc7",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "fish"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tomato"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "26335600cba2e169ab9d1f975c2ef0b9330b85e59d3cbbcd9427dd5a03717296",
+   "image_sha256": "5d6e732e048f9db87926e953fa98c2601c408dab56459e87fcb104f01f0c1a9a",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "pan"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "condiment_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "0e2fea461fb99215bc950eb39e977443eb3c613886a0f4dc57057d9386f338d7",
+   "image_sha256": "c00448da23187863d18484bf2aac3dce2344e21730fcbfaba5aced400331e4e0",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "donut"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "3496285a3e1814311bda1ad6628eceba8ad6b992a3f72844e1201c29d9ca9965",
+   "image_sha256": "e85a2e9902cac895897f4f452aa46f90ae5babfef025b5bb3c9a0802800a84d2",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "65aab3159d812173aea1d270c93f8201c2f61ae62f353cdb7d7f1702d34a277f",
+   "image_sha256": "73cde559c15383f319ad0e8fce4640334ac919aed0caa443b799811ea3a656b1",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cupcake"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "peach"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "teapot"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "e6cc97029fe7e363cef975a191e4fea2f6e5abe64cdea296f24f66158f04c094",
+   "image_sha256": "96702e4ba21e3962f2acfdd04c9a5c872e117fccafc88eee0b04aa2aef97fbb9",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "fish"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "176e372c978b1c17ed3ab8d8672f5511c4f77f178f77391545d6a708b6163d3c",
+   "image_sha256": "619cdcdd9ebeda7f4144b936987cf295b98b149cd7e37f28194411cb5a1d6f27",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bowl"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "c73556b9a2e7d4e053aeb4f7862fba019914d66fa6488d59da73637d941dbf5c",
+   "image_sha256": "31e4e76d8583dff85dc3919ce925262b421fd51beb6002576cc82df7a21edea2",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "waffle"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "chips"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "baguette"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "114ef75947f58839dc34d7d25dad67a86ea2936d8c6a18bac4935c1c9bfdc6b0",
+   "image_sha256": "773da56010c65b04dc8d711c4c9826f88fa42f53eaa1c49923b99051ea889da0",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "condiment_bottle"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "banana"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "08319d5fe8b5c8d7af5a062dd45df868f243074397a5615ce208664eb4bbbe9f",
+   "image_sha256": "b11ac03f8167e4a6b97b37857e14da6845e4326e0406bd4056afafbb8ffb500a",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cereal"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "8899ea0664df3f1ba8fd7d66c0dd38da0ce24cce12041c0320756a8c5b65cce4",
+   "image_sha256": "17309fd7486207bffd8a20c855204a60caa033801d0d3226d8781dd8450e4d70",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "croissant"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "ketchup"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "boxed_food"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "4a86f15b99dbf80c2588da465d7d8612ed9beaa221cad013ecb04569b5bc4de3",
+   "image_sha256": "9322af30de961d8366df13e9292defcc81da07df9dad6dce06ead3c693ca18dc",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "candle"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "milk"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "75c094a3b81cb0c2f02d5f085705ebfeefb6e66f56caac8670b3ec4fe07d71b5",
+   "image_sha256": "81d7e82b8fa5dce513fd65c51540f0f6c4390e7daacf582a9558b181ee284452",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "sponge"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "ace6c378b7ea03ce85b55ffba8c3cec7fda7975585cb7af5307367a63031280b",
+   "image_sha256": "6e6681bb051154ae09714f8a44d81553f5f36476a9124fc52f188d30579fe71e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "lime"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "wine"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "mango"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "chocolate"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "ea33ad736c00e06c704572cbcc708f93c69fc18f2cffebb762584ac0846f7b0c",
+   "image_sha256": "9df1ade2d054a64989c7a7d8f45bd8851b9082e9a2a7815dfa1764daa749d8f6",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "steak"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "chips"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "80c7cfbc22a89277caa967074cb4758c934bdbc8f2e0485726e92cb22a3d24ac",
+   "image_sha256": "d4b4a5a9da139ed07f3c22bafb22a3123f3f40320d6b38e0bab6a5fee012b29f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "38fb8755ad28dbe24c4b6f38b804a49f0808ef80f9febfb84c72274066d4e4cb",
+   "image_sha256": "87ab1681c247f01fa1548b59a87783bbb0b3b9cf5724137ec716d59bd12ea83f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "coffee_cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tray"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "e0dc35cfcce652e07386ef29cf66c604f81d38aea7194e011e2b6050ebaee60e",
+   "image_sha256": "26446aad88d08bbb292a93c762bad5b9c569f307e71681514f58007b1e22fbcc",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "pot"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cake"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "coffee_cup"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "37aaec48ed07e77740e4ca3f69e1d277337c4930daecafd62de4ce2831a21442",
+   "image_sha256": "872403e81c1271a72e8df097740ba87cf1130c970703c4b8cbd80c3241b187f6",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "kettle_non_electric"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "jam"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "d78072b42e0d4bda4d2a78caba4c32f9531ae84747f36c18640040c2f117270e",
+   "image_sha256": "3f47e5ce4f55e7626855cad8cbf3117317bc6dc281107ddb39831d85567f677c",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "avocado"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "f5eca981fdcf406bedb4a8ad7b3aae57fb2b9cd6876db6064f9dd741374708a6",
+   "image_sha256": "b23052cd7147df2d041a3c4e11d66b00dc563e4e57609373d5c8803302ff31ac",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "eecbad64ffd5a8f19033a4f8de25f695244701ffcb1c8b3aa83b97dafae9f0d2",
+   "image_sha256": "1e8269423f5d3d935ad6e996f700431ca02702235b79bb1b43e641f45b3c5894",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "hot_dog"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "b0e922d139f799443950121ac2858d141f636c616f1ea18da91f86d167555d45",
+   "image_sha256": "cdac921dcb6f619bb4bb7c341326d8ef25b38ad625ef3eab89ab952c276f18bd",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "boxed_drink"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "chips"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "b118067e51113c2ff5d82cd28a4379857f1337eee100fe5ee9fb6e50d30cd622",
+   "image_sha256": "e16361ef18609852c144ee4ef08c6f38a410bad0afe480c51a9a9c9a914610c6",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "candle"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "0a0df45c38212576e7dc81925cf21ab9273ab438a041feca6d9d3e737fe4c832",
+   "image_sha256": "e27a500e7012bd4569bc95fe2288524149b9c0967decb777c0719a1cf323dacc",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "baguette"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "bfcae03336147379f6c63938f57334d24a162bcf4fbe797e87dbf32bc65292c7",
+   "image_sha256": "98346db4a701e1c7433828c54779d9ebef0a99b1020c1df28b172851d5740ec9",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "banana"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "orange"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "e318259cf39a2f94d660a3d1ec4b3db0fbdfa75ebea1f699af3b08ae264cdd28",
+   "image_sha256": "1c328f0a60226bf7be343c9a0d1fae8f72e4cdda271f14b7299f9f15f56e7a00",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "kettle_electric"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "peach"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "scissors"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "4b6812f807c228fad664e097e8a88ac0555882cce1603564154a3773fa6a7433",
+   "image_sha256": "0b77bcc39c43461557db27fdb2c280eca0ab49e3d85542727e1043b61f73f605",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tray"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "9b47b266f08dec444bd072757a9da5586c33afeca2d44160bc206832b4893ea5",
+   "image_sha256": "280126747d2c721685acd9368181511a8816ab9ce5516df53820e77f6c8fdb07",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bowl"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cutting_board"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "5d1a2418448a14275b450d0c33e9a53a737f76f90a42a9d8962d13b31e72049e",
+   "image_sha256": "432a576d81141306c842028c2cea17e9fc8c91bb3fd626c5dc7142426272cb1c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "teapot"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "coffee_cup"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "1a63f8e95010f85e406e7f06dd93a436a36a968417313ebabcc59d313f544796",
+   "image_sha256": "3afebef0da6798c782a9092b066207ca1c2de43820efc81834307669237b48dc",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "open the cabinet doors",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cake"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "steak"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "spoon"
+    }
+   ]
+  }
+ ]
+}

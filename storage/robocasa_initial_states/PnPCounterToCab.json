@@ -1,0 +1,1142 @@
+{
+ "task": "PnPCounterToCab",
+ "env_name": "robocasa_panda_omron/PnPCounterToCab_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 14,
+  "4,4": 14,
+  "6,9": 10,
+  "7,10": 16
+ },
+ "created": "2026-11-04T21:30:51+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "d58344b6e64476adbc2707060ab01e6e7ec437dd577d4d62d842a3fed5ef0cab",
+   "image_sha256": "05ec8c88bcc953cb844784a70dd39b9dc9779b07050d79f7fecd761676865c0d",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the lemon from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_counter",
+     "category": "chocolate"
+    },
+    {
+     "name": "distr_cab",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "1774fc815ec0bca5cc4cef460214689971a6eb2f1824a042ac0589017f612db5",
+   "image_sha256": "b223cd70afa75fe0733dd7b46dbe50bc3d5617d2db0e92468b2365319d7125b3",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the garlic from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cup"
+    },
+    {
+     "name": "distr_cab",
+     "category": "chocolate"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "1522d48c69458f3069e29605c24807d448d0ba3794ee4cd9779a89649178bbb5",
+   "image_sha256": "5faf7762a53c1c341295f74428f304164eeceac2bb590aa79ca7237c94b806b4",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the eggplant from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bowl"
+    },
+    {
+     "name": "distr_cab",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "a3fb7e4ba176f82ac77dfc9af5fc46493776588c53cd2cf4640e45a6eac4dd73",
+   "image_sha256": "810e3ea2f533f44fb204882da03ec1299b087a66a23c42c62b605e4cf09de107",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the peach from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "peach"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar"
+    },
+    {
+     "name": "distr_cab",
+     "category": "scissors"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "3a5778142f415141486360168bc273a949d0ce6c3f84065b52f8d8286dd77b7a",
+   "image_sha256": "3ebfad77dbb26f8573de40c88be1aa2d3f14999884dff14a31fe35227d05e3cb",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the cucumber from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bread"
+    },
+    {
+     "name": "distr_cab",
+     "category": "kettle_electric"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "5d673babbacf7375bf02e9ac9b5ec15c0ff1f8e1ad332449a74e8905ec83bbee",
+   "image_sha256": "67e8a28f17b774b87e1752bbd66e0444861246ab31dba490a73fcadcea42781e",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the lime from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "lime"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cup"
+    },
+    {
+     "name": "distr_cab",
+     "category": "boxed_food"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "558fc5f4454c9a986684181df292e28032604179d9117cd7297bea53d21198f8",
+   "image_sha256": "89d351dc2290af9a74269604cec7b2f3d96edb51a72dc90ed6997421d00df8f9",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the tangerine from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "scissors"
+    },
+    {
+     "name": "distr_cab",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "e334b6415582042a0930f0711e82c7db83aa3ff34935d13c752da1027c783677",
+   "image_sha256": "82b321966d23e688a4abf697c556299d01c3246a4f4b309983949c5f946d4ec1",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the garlic from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_counter",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_cab",
+     "category": "teapot"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "97881405269de26d956f249089d818380419bc34e43d519fd84e8110885fcf61",
+   "image_sha256": "ca02ee2f5553ac13f0b1d470de362e4401a01242c7a39bd23cec1273a3a799d0",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the kettle electric from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "kettle_electric"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_cab",
+     "category": "chocolate"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "cd316e7763dda3d924788b94565353bb98267dc685405611181e904f1261420b",
+   "image_sha256": "c85110f00c06a7a2d38b6fdf0b0bf4d705b00f30844008783632535dbed04aa9",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the bread from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bread"
+    },
+    {
+     "name": "distr_counter",
+     "category": "can"
+    },
+    {
+     "name": "distr_cab",
+     "category": "cake"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "e19c74b880918ab9c1b9a70949b678c2155914c65574610f224dff350ee4ccac",
+   "image_sha256": "ac371735640400877c33d542e0b21f6acc3302595c6802bc2bfecdbca2a032dc",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the boxed drink from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "boxed_drink"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mango"
+    },
+    {
+     "name": "distr_cab",
+     "category": "squash"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "1154e0e15919013f03301869b559c5c32f65f9dfa00cd2b9327faa2d7222e9e7",
+   "image_sha256": "26998c30492f52b9910c990b2701019956c445f2281de4d52878405fff464c85",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the sponge from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_counter",
+     "category": "milk"
+    },
+    {
+     "name": "distr_cab",
+     "category": "beer"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "ba641affcf1713728fdebe769efac6511d9036d4849617660b3514a8770446e1",
+   "image_sha256": "f6d3c66bd118c119fb7fe0b91c33d52056bbfedc6b61b7c3dccfdf75de54f56d",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the canned food from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_cab",
+     "category": "cake"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "c3e0f3ab7f97b3711b630a5bfe06755396b9e3429785ba74f2241f0ab3394174",
+   "image_sha256": "f816aa6cc92c9dac75b86b1be8dd159856c98fe8988028c3e07b8257dc117c18",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the squash from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter",
+     "category": "beer"
+    },
+    {
+     "name": "distr_cab",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "799a217dc9cbf576d8101539bc3b562a70b99cc08fc4fd3fbc92623ad027db82",
+   "image_sha256": "f85f5cfa14f6eab5df238b08b23e78267a3f7b4536c69131f6306a752611fe7a",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the yogurt from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "yogurt"
+    },
+    {
+     "name": "distr_counter",
+     "category": "waffle"
+    },
+    {
+     "name": "distr_cab",
+     "category": "bagel"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "24ffa63f747a8f99b1fd5819f0975b2951fc1bbf33808cc7e808993b01cf2ca4",
+   "image_sha256": "0b79cb9ea6a212eab6c3a5132b092747021de0c4ae63163defa2b76d4f1b0f81",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the bar soap from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter",
+     "category": "corn"
+    },
+    {
+     "name": "distr_cab",
+     "category": "cup"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "b06751b0776ad1ded82f642343fc617b25ba86f4b9456edd0cc480084b955d39",
+   "image_sha256": "939f43b0e4c7b2445b49a5206963fd90f702d44101f7b207a5c94456a68c2c29",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the sweet potato from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "distr_counter",
+     "category": "orange"
+    },
+    {
+     "name": "distr_cab",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "c4e5cdddd7ac56657b5d14704524d2a78183aba1e6f928b204372c687e50312b",
+   "image_sha256": "4f96ff2e2859260c4b4c31b803bd9582df16574b5ac368de5e93840da3f5f0ff",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the garlic from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cup"
+    },
+    {
+     "name": "distr_cab",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "2ed1e692a165f415541707975a38c4e47ce1dc26733a1f9a9ebc6df408bcddca",
+   "image_sha256": "c94697322ce75ed977e730742b4ee681481ebb93cfe3ad0d2e4d07d65b3765a5",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the water bottle from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "water_bottle"
+    },
+    {
+     "name": "distr_counter",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_cab",
+     "category": "shaker"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "a2850c8015d81d592013d2fffbe666092911eecacbebd0fe2e742615c8291442",
+   "image_sha256": "da5361a740a51305c078e0946ea7ec90bd88871f36d10452fd12cb5b6e6be796",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the liquor from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_counter",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_cab",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "0d1301c09e6ac32b510cd2885120a92a9bcc20826bcff30c66a8d9357e441598",
+   "image_sha256": "58939f299cedfeab67bdaebb172fd1bcf2d5ccd46a727ba630483f05a2062f57",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the hot dog from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_cab",
+     "category": "jug"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "bdb6329744b1ad8758c6d85945dbfc5136646faca7099ae8f746d632596ce427",
+   "image_sha256": "fe75ab3a9b8e0f05a3340417c5a2a8b3d271a3df5f1e84861e800c84b2aae81c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the cheese from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_cab",
+     "category": "bar_soap"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "7baf224ad61b8a4809f96aaff7237553583ee50d37d6776adfecd2b23e666533",
+   "image_sha256": "5f74dfaf58866ce4d007dd6842808bc302117e2f0581a219331ffa7f48cb4f68",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the cake from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cake"
+    },
+    {
+     "name": "distr_counter",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_cab",
+     "category": "cupcake"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "4e5298b641b7f0cc0afd648ab987330e719679b8778b8ba1fc734c761e744fb9",
+   "image_sha256": "a698fba74ac90bc5459f94d043f04c3b390acf278fcedb1670f113967699e567",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the wine from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "wine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "spatula"
+    },
+    {
+     "name": "distr_cab",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "c1752a5d96034ba97c7cec107cbef522329bb6958887af50649c8b6855c5388e",
+   "image_sha256": "5cdd8c16b7ff739bec125a86733514c3c87839b2567e57b788ef126b55b88372",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the bottled water from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bagged_food"
+    },
+    {
+     "name": "distr_cab",
+     "category": "pear"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "fc7d934ad57b3f10792de2d7757e5d550fa921fa23d2a7bbf9d744e48d698ef9",
+   "image_sha256": "6510e159f7c9ade2635a7da2725bc56a30753c92a4a01b90e7c076ee640841ad",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the cucumber from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_counter",
+     "category": "spray"
+    },
+    {
+     "name": "distr_cab",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "a366fec999326952e38c2707380a90fe7bed4989dcd2c0fe0919041916c9a56a",
+   "image_sha256": "93f46e5fbb8045677939b6f8585e42e9a415e917052561976494dfac630f14ac",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the cup from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter",
+     "category": "lime"
+    },
+    {
+     "name": "distr_cab",
+     "category": "carrot"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "74e95da1b6741c427e482fd83524fc5ffdfa764322ddeae37274f4aa414097bb",
+   "image_sha256": "6ff1e6f401bc459a0fe7b2d95870ab6cbee741962caad7bb9e5f77af81ca032e",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the steak from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mug"
+    },
+    {
+     "name": "distr_cab",
+     "category": "banana"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "66d580e0b6d87567a60f8eb011d4d2fa6fa2960636ef12aeaec5c5b8ad783681",
+   "image_sha256": "850dab143bb80eed8fa93c9523b5081549d3043cee36ceb2cd6c6bc2835621cf",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the tomato from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tomato"
+    },
+    {
+     "name": "distr_counter",
+     "category": "milk"
+    },
+    {
+     "name": "distr_cab",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "4d40f012f30be6a6119768b035d19c29ad5d3c9ed698e31eb0902b6e889ffad8",
+   "image_sha256": "5c4cd85b82ca5252fac2dfbe3c86ed3c028b5fca1d03484bc50bc16f164c139f",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the baguette from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_cab",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "f6eb60c1b7d2e86e6ecb59218f43146c0dc8388edb0be56d3a6b37919867a032",
+   "image_sha256": "ef8f8ee0889262c8125948bc08bf80fc9e81caae0895d704fc4c4157b2d99542",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the ladle from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_cab",
+     "category": "egg"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "775875eb515bb06ecb3c1f2eb02cbb8808a34a47bbd26b6b905eebdf18bb50a3",
+   "image_sha256": "60ea37f005b596ede6af41da6a901ee2f7f9da8f63eaf23253f37047ede7ab3e",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the jam from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "jam"
+    },
+    {
+     "name": "distr_counter",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_cab",
+     "category": "cucumber"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "6cf24493fdd8531e0e726c4d5311725c303898809fdef8182c48d1da0e057e87",
+   "image_sha256": "6fcb37418292fa865d5a09251f04cdfd1611cbd640a6eec286e51c24afee838e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the tangerine from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_cab",
+     "category": "broccoli"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "d3c4bf4a2f5d245a8bc5011c84fed6f184ec1c46b040e5af0ca706e8044f8a96",
+   "image_sha256": "7950341bfade45fabffe1404b0f1276941338244146c593970d4e95c0ad4b9a8",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the water bottle from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "water_bottle"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mango"
+    },
+    {
+     "name": "distr_cab",
+     "category": "milk"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "400d77da0d7ac77c99bc6de39778a5dc15f37b417661b1f132ace059beb87d5a",
+   "image_sha256": "461c714c4188d109fd3a10c1aefd579282bc0c4e52126b0e8ad35e6fc42270b1",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the carrot from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter",
+     "category": "squash"
+    },
+    {
+     "name": "distr_cab",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "88db779d8985db09e34fc8eb267333338d1ad820f9d8ff488e2e930e1390e456",
+   "image_sha256": "db1fc9ad634a2c4dce93e82056701e4dc3c0788a5caeaae0d80e0b5f7e243608",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the carrot from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter",
+     "category": "squash"
+    },
+    {
+     "name": "distr_cab",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "1f9bd911a87f421d92b454c67566f25fe18a57464e388ddff76950aeeff05aa2",
+   "image_sha256": "7583429bd61a8d4a9daafbbc87e8b5613c33f2619071fc460e8c2f4527090304",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the pear from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "pear"
+    },
+    {
+     "name": "distr_counter",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_cab",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "1f19ef206701f17d88c6fe9fd48114ebea8364c8a5432816ada5e77fb71fbf0e",
+   "image_sha256": "759fd3afa6adb4b2b20abd925ccddcf9328ea5db13dc3e6946530ff79bf3a76d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the rolling pin from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "rolling_pin"
+    },
+    {
+     "name": "distr_counter",
+     "category": "coffee_cup"
+    },
+    {
+     "name": "distr_cab",
+     "category": "apple"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "f1379796f725cea7bfd4467b670f1a66df337907df9aef5fab2300cb24a249f6",
+   "image_sha256": "379b020a3a17bcb226befcf35fac99619a201de513db24c286083ce751bb172c",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the milk from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "milk"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cup"
+    },
+    {
+     "name": "distr_cab",
+     "category": "teapot"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "8ca1e9164ab2199c326126f378a71b2687afa45c8b970fb512a187187d817853",
+   "image_sha256": "9994aa2bef297d849d4741b53d6ddf5a234730e0017e1a1826e6d0fdc63205e2",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the cheese from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kettle_electric"
+    },
+    {
+     "name": "distr_cab",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "3fcd2e3fc0e2dd11658aed3a58bc1cd11fac01df60f76ca1f63d3c9f2608ce47",
+   "image_sha256": "9b3234625ea11094292644da1d4fdb28235e1c0cdd64699c904cbe6a3b7b233c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the boxed food from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_cab",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "6f31b6aba71d3836821cc70ef499043082bdceff587e77d8e8e8e507771120fa",
+   "image_sha256": "e467274b7764d8217b0f17842808e0254bf13670e50824d2510c81002af0f8b6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the hot dog from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mango"
+    },
+    {
+     "name": "distr_cab",
+     "category": "kettle_electric"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "9c699cb125e11ea6e8d85b9c30e1dd5e6f2a1fc1f9b0a72869119c2d1f6f9ddb",
+   "image_sha256": "f004c5f0d6673d5b07c94e592a56d9e2eb9dbcd9fcf4632edd2ac1d31899011a",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the liquor from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_counter",
+     "category": "tomato"
+    },
+    {
+     "name": "distr_cab",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "ffa8e0d849a2c913e0737d6e3524de6dfb19b55ed86ff0ebc081a3ac18ce5cd2",
+   "image_sha256": "4ef623b6fc68c355a6ac1fd5725c463a702d2220aaecbc30efd4bf7153f26cb7",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mushroom from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_cab",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "d1b37a8c5a308bfa7c76f60eef49eda700d5cd0f8a8af01702a0202f67950e0d",
+   "image_sha256": "f14b1e888e288afeeb4b155ca271713a90d9d153705dd2585097433ea33e8f8c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the squash from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_cab",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100054,
+   "sim_state_sha256": "2250c0626ecc468bf59a5a34283ebb71147c7921c856f2a20fa56ee364fad396",
+   "image_sha256": "a1cbb24eca2ce21b9b35f76170ee2b4e2ced4c0844870904d01f2e28b41c7d46",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the avocado from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "avocado"
+    },
+    {
+     "name": "distr_counter",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_cab",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "64c77f155a5350a887df646f707557688f41bfebcbd86ba0559d6318a60d01e7",
+   "image_sha256": "c6f4f0debc8a6bf56ea0fb210fae3b5c2c9c43ee47cbe029f6405fd3a064a4cb",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the boxed drink from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "boxed_drink"
+    },
+    {
+     "name": "distr_counter",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_cab",
+     "category": "bar_soap"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "ed7f0656ef6d5ce8ee77dae8a4f9b524e5841fed0277b2d05fbc1225d3a053f5",
+   "image_sha256": "e81e2a2619313b7280a38b39bda032a75c502111dd6fea3550fb1df91bb5154a",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the ladle from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_counter",
+     "category": "tomato"
+    },
+    {
+     "name": "distr_cab",
+     "category": "beer"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "3ed57a7ca076f734f637c42f83909d0df69a2188a5a57fbfbd219c5203f96ad0",
+   "image_sha256": "b4e0cef151c094c6ae7fdffc648243fc037bd766bf7fb86536996c06d3a8ba80",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the milk from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "milk"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mango"
+    },
+    {
+     "name": "distr_cab",
+     "category": "cereal"
+    }
+   ]
+  },
+  {
+   "id": 100060,
+   "sim_state_sha256": "c6da031bc6a11cbf7626c73e00203a8b953ccbdb08442b03c8f7ffef9ad726a6",
+   "image_sha256": "4d355006be6f16ded227adcf1e265bb840c1e18a93141616e84d021b297e0d7b",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it in the cabinet",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter",
+     "category": "egg"
+    },
+    {
+     "name": "distr_cab",
+     "category": "bread"
+    }
+   ]
+  }
+ ]
+}

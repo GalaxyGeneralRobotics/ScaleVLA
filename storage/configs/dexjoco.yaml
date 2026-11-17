@@ -1,0 +1,23 @@
+# DexJoCo co-training: one policy on all tasks of one robot type and randomization setting (rand_obj or rand_full).
+#
+#   torchrun --nproc_per_node 4 -m scripts.train storage/configs/dexjoco.yaml \
+#       --data.samples <dual_arm samples> --data.cache <cache> --run.output_dir <run>
+#
+# The horizon of 30 is the action horizon of the official evaluator. Actions are absolute, in the environment layout, and
+# every frame is a chunk start; task-equal sampling comes from the DexJoCo embodiment profile.
+data:
+  horizon: 30
+  pad_end: true
+  workers: 16
+model:
+  rank: 2048
+optim:
+  lr: 1.0e-4
+  wd: 1.0e-5
+  lr_schedule: cosine
+  warmup_ratio: 0.05
+run:
+  steps: 20000
+  gbs: 640
+  seed: 42
+  save: every:5000

@@ -1,0 +1,1142 @@
+{
+ "task": "PnPSinkToCounter",
+ "env_name": "robocasa_panda_omron/PnPSinkToCounter_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 14,
+  "4,4": 16,
+  "6,9": 11,
+  "7,10": 13
+ },
+ "created": "2026-11-04T21:32:59+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "f79869670f32c9f8e0a524ce908ca39daeba44231f07b16fd4ec6ef87f626635",
+   "image_sha256": "6b63f0ed8553c2d959658588f610093c6a35022c3d7e2964c217db95c0fe4c6b",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the bell pepper from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "can"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "cf1fd7f191c1f018e3ec20786ec73e83c1f6bea5888d9c5a6f67c2ab125c96dd",
+   "image_sha256": "32c18490fd600e38440add7f3d7b4db899557b039bade1a9efa81fa8ce4337ba",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the steak from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "soap_dispenser"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "165e48976ac07d3a4d88dc06f71279b0db1d5bd681347ab29aea4fbc5e51f5d8",
+   "image_sha256": "aec8a0f50fcd89f9fc1d9e3ff821aef2f8982c4d37d8307ed23f52e8a7ffc3ad",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the corn from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "corn"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "apple"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "08b9b0f1b56900cc3ab4f7bc13cc1fee34f0c1f3a26b000e2eeb0852db909766",
+   "image_sha256": "7fb086dd915274fcdde544c21dcd45f8785dd06bfd0a2986b068651a9d68a0de",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the apple from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "apple"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "6874e8ae8b180a5526877aeeb08bcdce9cda46250dbd00c0ab18f2fcd2382ea6",
+   "image_sha256": "2534bf51a822e061bdb7bd1ada6815a1f978e5ac7cac2f8819f4c8771b00d40a",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the squash from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "fork"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "aa9e49dbbab5be474c6ed477d68745682dacb4fc1abf410079023fb6c86b95b6",
+   "image_sha256": "fed4b158db99c21e4a55ba81693530f255ae03dae1d71c07e3a5c1b3684e38d8",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the sweet potato from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "a3e29d9699847416a76e7c523854aee4904a51b319402631f85209ad54514857",
+   "image_sha256": "94d1adf73f320aa724a5a998219070b4dbe86f84504c9fb0879b3fb238d35eea",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mushroom from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "3404ea4ac48486234b28e9d9a69236aee940021daed9a837a70d57312756100e",
+   "image_sha256": "c3bfe446fe1aa7fc6261282ea05706882c6f743a7728db353d0c3c5e901a233a",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the corn from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "corn"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kettle_electric"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "43514cc230f4dd4a1ce435186314fd86be3ae27824298c7c721108235315d926",
+   "image_sha256": "9b3dadaa1bdb27bf4759c5295de9dc9f5d8b83caac43ed2ee4c2745b49854cb6",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the yogurt from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "yogurt"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "croissant"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "cbe5d61d2e31f0dd1245b2f6d0f60b373d28de52de1fe871455ea7ea5e9a942a",
+   "image_sha256": "9cc0b0cb0a3f0b76a0360946fa6baff044ee1540601cf1a5232ce1cb9abd32d8",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the lemon from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "lemon"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "chips"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "79e47389199b79f6acf2970a57cc0ca7755fb70019d37cb54a08004e1680063f",
+   "image_sha256": "16f0f57ad6508778c8648dc26437632f98e4c94fc2cbd90d7d4352eaa785d9a8",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the yogurt from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "yogurt"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "3090c69df08b03458824b169b730d3aabcacfa48ee13bb27f669a06e0ee5b848",
+   "image_sha256": "751d9e5a6fa1fe1d0563aefc7561e2f15e0ae13ee7fd125c1ac756aee0965b63",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the bell pepper from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "b91b1ccea63279e4772a6982210094663ba8e6457f3864bf2861c6b371ac662a",
+   "image_sha256": "c0e53846df74eb09077aea394c32bf8caf8ae2e7e7f6c2dc5192632a77011cf2",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the orange from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "orange"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "9e4b365b934ae8dbd9079665a81c47ab3dd07e8a3b0283a7964a64805ab63fdc",
+   "image_sha256": "51d3cd1d8c768b4a772558ed46ffd26f48db5f5cca886746dcfe1ab529c44939",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the tomato from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tomato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "knife"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "183f2219207ecebb775d5a6a5060e8017788864189a1e28d05d3c6de87dfabc9",
+   "image_sha256": "a6a67dbc083baf4077e971dedef264cf50bd2cce6b6a86707ddd02893be3e95c",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the lemon from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "lemon"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cup"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "d5d078377c6fe4c4661e116b26ef2ea4b603e8df4bff7b622e1fb21f1eda2510",
+   "image_sha256": "8bf3a91ea7d957ab27b557fb04af64801c76a549898bb8ea8d536af014e1938f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the fish from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "fish"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "waffle"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "46b3d580ca54c3113bab518125af8980cb0b6716f850991cc1ca98b36cf7a829",
+   "image_sha256": "1ee5e0230a927950ebdacc9468fd526fb2b127f8093a09d969e1952d920b27c9",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mango from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mango"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "b4051e6da02c390548b832284d3aad5eb624722b0561ae88a042181504b001d3",
+   "image_sha256": "9b6fa84d6acca391cb1302fffff9d8c57b6ea9aafa95b17912d1a0573cd9e9ae",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the potato from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "876c1fa7435e5a83937a9beb35a0d2af4e07d583d0a96499f2f7ad41987e49a3",
+   "image_sha256": "9ee7cc17f358359bfe7aef50fc3c02d05a5f038221b30cc6dc3458fd4c39617e",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the carrot from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bell_pepper"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "6178441f5b1efc096ea7b12f0a307b03e23b3502bfaf267cf76791b4ab4d3ef1",
+   "image_sha256": "48cb4f1c9d4dfd63585c7ab6060995e2ac0494d09ec8031dfe86554cd729b3cc",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the egg from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cake"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "865b09fb2474dea916bc718e2839cd0a557686bae6349ebdfa4406f0a9b31e52",
+   "image_sha256": "fd6def57e78a149bb125bf5a99e5368a6d514642a6e85959af7b42d8b60fba9b",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the garlic from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "garlic"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "53f8a5f115b01c85512cf5530e867a3d7b4298ec6594e8f2f126566c4264934f",
+   "image_sha256": "97167e8c944e456b6dcbc2a6a42b076f3d63e28fdb8db73bab1421c27a864ed8",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the pear from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "pear"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "a97371ad40424f44aed9f586fc20cfcd1c6b9303a490cf79093a2a40a2eb28c8",
+   "image_sha256": "95c873db26dcaf5ff63c256131dd5a42ebad70c6a0b1d6df23cf3bbb438cf36a",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the eggplant from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "6dd67c146490ba0f01a1a0664e55170fb9f1b74b399c58d679a25b4957a13f99",
+   "image_sha256": "b8f09fbc0cf2005cfa5ad7d8964b941d16cc8ed3d738a2ac2ce59a6ce7371ed8",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the banana from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "banana"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "dede40c1c560bb6731b396c1ce1f5620e254f4b025dc7c3b6aea84730060a2da",
+   "image_sha256": "99dccdec3845aa94bbb6f4aae2467b1246d7d87d519fc30b9ca810dacd0bbdcd",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the egg from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "boxed_food"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "315c68ed2462b97ed9ad03df103f23c67100cc0d0f1c660aed44552df4639cc3",
+   "image_sha256": "268c31074f85d6212184726fd499fbbe22376daa7501b7bac964d1f4e671cb16",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mushroom from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "knife"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "194f87d3bb7ad5ce23bfc44079d4e30806edd5a19ab1c70fedd1084c781078c6",
+   "image_sha256": "d5a006ce22c9f00e014db123fbe4f6e8a06ad2daa4d2994b968fdf83ee3c4e85",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the fish from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "fish"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "can"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "41c2ff5dd246e6baad6cc100229167d05fe9f0a1d2980dca537260ec85036d64",
+   "image_sha256": "e3802c30b5db23b6f9dcbccc11388e12ba462e2846532597ae6fe8eaaa3a6912",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the fish from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "fish"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "e296a186130d4e585bf631908a4d36c6870e2406511710faeecea2380c848970",
+   "image_sha256": "111a77e483368f60f612c131fcc97f733b99dab28d92b26c6f475e7999f88a66",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the garlic from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "garlic"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "303dfc16df3cc76e84f414315de9c138d1f63bed9da408cf2b91237de5dce60f",
+   "image_sha256": "009dcc4f9bc89f8ebbfadd51326868805647e338243a15e3b837b501c57c77ab",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the onion from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "onion"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "783ca61da2f90884c46e24ef8dc1c3e6e30dbb17a33bd44394064b6f6c393629",
+   "image_sha256": "ccb059521405a541e148fc2b7d2e08d9943e875d0a5fa2beda4aee953d241877",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the banana from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "banana"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cucumber"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "8ca55d8c97725cded426fc1ee14b06087814f8f356f1fac743db2a8ee56572fc",
+   "image_sha256": "c676b3b8dfba60f8786c8fccf505410267ad822ebc56cb9df829cc53f3848efa",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the potato from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "a2b23fd18f13f1a607ff8981b3b566f76ee0eb5fdc6538c18e5a3676f13512fe",
+   "image_sha256": "15b0b70d2c7eb5205efaab66bf1bf598b6ba3a61b76c2790f323f7367809d2c3",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the carrot from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "fork"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "8783950770161fe0dc896629f3b6e6e1e516fbd794ff09ffbc176e2fa4e7358d",
+   "image_sha256": "663da946a59e8e5cb0d1c9b138e63334c7d144a27e49ec7326c90835620811f0",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the milk from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "milk"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "pear"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "0b8e14583df989fb5bf64f5f225a17d5c1bd8ad8d1eaa75cd90698a2373668a1",
+   "image_sha256": "e138e380c9a8aaebfb185d314053b21963c7d84474b21c810416b94bc1b49c97",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the egg from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bread"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "40714523e06d271ef8b9b649ab6493de65d9c267fea49cc728c2d9d528815f7b",
+   "image_sha256": "139b7f044598287e2d94c19d86a5d47a9b37c4a8a1c22619b74dc8903678bc75",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the avocado from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "avocado"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "teapot"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "8448233bafb81a3bd572fc83bff769c86e8dd0c189709051a26a8a05e9b4c92c",
+   "image_sha256": "20c97ea8db9fe7c2da5e868d150bd798778c1cd203cbebb3680a107034c3d6a7",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the kiwi from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "kiwi"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "12817276dc0d84732f65cc06b1d0fe2a633506ff13b776f4e51508318684137c",
+   "image_sha256": "9cf10b541bf4094397e370612c97fa184478fcdbb1cdf380190e6390b70c4711",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mango from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mango"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "765883a02ec76eaf3599fa6444464a08270d1249742fbe6da91a81bab6fd5e2b",
+   "image_sha256": "326e142290dbc1ad2f5b1b0c872cdfcaaecc077cb1dd6b8a07881f38ca239848",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the broccoli from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "fdf3673ca159632810488fd9432ce959a85887568b88971c302c833e611758e4",
+   "image_sha256": "a7b103ebd13afdd358f087f1347113102ca49fd44821c3eaed3f68ce11266251",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mushroom from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "fork"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "fe03f6cc53c5e80666b3d51dfc8a8a672749d146e379ff33e7dca579645f193e",
+   "image_sha256": "b437ee52fdf77185f895312c4003445179fff52ba4fcb3f9df28c73c9e343dc3",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the squash from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "squash"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "e78b2b502ddb12886b38b9a5a57d74687143338982dd32bde55c2fa799a19f08",
+   "image_sha256": "e44e36d3633f1c94f967e0b23d6d796d614b3e5b9a5ef12a0f7ae063f80474cf",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the fish from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "fish"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bottled_water"
+    }
+   ]
+  },
+  {
+   "id": 100043,
+   "sim_state_sha256": "7dc1e8ac1fa3f4b830220561a2734b470194a573cd5ef3aa944da92499ec9186",
+   "image_sha256": "0f6b69c9e49205d78c5f2ec771af11311dce7f04c6540362fb10b6949b639d8e",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the yogurt from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "yogurt"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "26fcab2975636b9791a9b5b99f1e67389c863ba191815401b729e1bac163ac24",
+   "image_sha256": "55763ac84399ea3d880438a03f868a48bc1dcaf3c63fc2ce60694383043f42e8",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the banana from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "banana"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100048,
+   "sim_state_sha256": "2c4f092c0c4d86e9f69dd68a355c38dc97c4dcf7295021d27b723837847a4620",
+   "image_sha256": "695f83877ac14ae76c60e42040e69261bee618eb0c2b353f1c6e940ee1be13ca",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the broccoli from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cucumber"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "a2ff9ce10d05eb4e96408a70ecdf0586ff590da1d7bdbecffa62d815010c2257",
+   "image_sha256": "f39470bf6fceb5bc26841872308c79089a3c9d84e1e4ca7b18f1633e1f4452cc",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the steak from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cake"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "8b634935d32b9213a3638740bc91699847ca24dc87a3a52c533750a54503dfe5",
+   "image_sha256": "c894e1fab5c40341cf9a287d1a893b1f20994110f85954e5453f6c322fc6cb77",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the lime from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "lime"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "broccoli"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "b36335c15896e2cf216f209480a1e30d3f5aceaf439859b20a7169b6648ee32b",
+   "image_sha256": "8beee84c95a79ae6716ee3c78a335c80596b58fe882e72fd91726780777fb715",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the carrot from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "a425de7cf49fccda16d9f73fecee6ec8fc50dea602a07c1da1082258b76c51b8",
+   "image_sha256": "894733b613311a9c55b49874ea623f02f3a2cfbb512627358f4d5da329da0fce",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the steak from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "can"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "cb4be92262b69a3df97363601a54a984f222b77c37c3137e848e2660add48104",
+   "image_sha256": "8d5d39db0b2c54dc52595f4e1efd147b17bdb0d6312e71dc6562a55432da60ac",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the tangerine from the sink and place it on the plate located on the counter",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tangerine"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "shaker"
+    }
+   ]
+  }
+ ]
+}

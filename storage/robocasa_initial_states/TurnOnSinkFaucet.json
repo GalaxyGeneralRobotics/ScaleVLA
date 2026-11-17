@@ -1,0 +1,1138 @@
+{
+ "task": "TurnOnSinkFaucet",
+ "env_name": "robocasa_panda_omron/TurnOnSinkFaucet_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 96,
+ "scanned_per_scene": {
+  "1,1": 12,
+  "2,2": 19,
+  "4,4": 19,
+  "6,9": 20,
+  "7,10": 26
+ },
+ "created": "2026-11-04T21:39:46+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "61e69338cd999c59e0436e53edfe29d0caab55443c31c711109f867d55e4875c",
+   "image_sha256": "3f0f9b7cfeb4187a4a901a98c05a2b670f472811f45bd5e48cf556db7db02468",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "potato"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "egg"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_sink",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "8f0464bb711e83014c28dffb4a2853c1f052bf9970c0a60eab55d4376e2b1f0b",
+   "image_sha256": "d8478b5f71502850b5b4125718177cc6eae69a7319722fba9bf76020f3bbac46",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "chocolate"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bottled_water"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "91b480b2ecb8eb89db1a92b15547c289886fae984160159eb14a14b9914f7cf3",
+   "image_sha256": "09cfa9f99e8e4741a90da20c287694d90ab27d5c5bc226face9d25559259351b",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "fish"
+    },
+    {
+     "name": "distr_sink",
+     "category": "broccoli"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "7f045cad220355fce436e3412b6e565e9a35834c20ae11aa2ebdd0f3faeb36a5",
+   "image_sha256": "630245df0c4884a36f9f3d3c30797b70c81fb9d9a4b30264cea8f36a23b52510",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "rolling_pin"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cucumber"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "cb487d246170744d7820d80af15b6b8311b9ce4da9a1f3ef9757eda4345a6bd9",
+   "image_sha256": "95a71c73f1e0a71fe9cd53735758c1f0007e0c2bd07110709e81edfff3bde2fc",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "croissant"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_sink",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "f3d2b33bca9992023baa9b0da17ea2678f9b7ca73a46f94bdf2716dc11ee5071",
+   "image_sha256": "fac39b1c50709010659cdd328a1cb791ebae77b8957dd0126a8daa940a4532d3",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "milk"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_sink",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "fa325270e92461ee1aa7f9d71efef4a47782cf898919758e79e5ead54de5cc6e",
+   "image_sha256": "df3b615f596fe5b563372b56788582c2137005e6a2094fde23f9dee09ac50055",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "teapot"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "scissors"
+    },
+    {
+     "name": "distr_sink",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "79116822b088c2123d4ff136695a6c283770fc44fe7eef7cd85a70f26779c9ca",
+   "image_sha256": "6b9ee5c1196555bf16eb7ab61e8a18577703f4583c3285cfbb4e61dcc10c2be6",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "pear"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bottled_water"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "ae86ef2289286b463d409b16431f1a639477912ffee73ae529bcf095c2d1480f",
+   "image_sha256": "122f0f7b6783cf2ba8fc199ceec2962f2c1f325486d43022e47c93077d3ece8f",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "teapot"
+    },
+    {
+     "name": "distr_sink",
+     "category": "water_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "85f1d915bf0d82247ba8ac8fbc403b6bf7ef49e34745db2533135848b8e008d7",
+   "image_sha256": "d8ed3f76958b543f2fefeb9867e5478433b272234190bdcbc143b5293e1c0fc3",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bread"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "can"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "c77c129f78695f5748dc9bd55b70d59e2577a32a64949735c9f307d61fa70c23",
+   "image_sha256": "b5564e2602b8c2461240d3628368995bb63090ef9c73219eab8a1245b5580de0",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "boxed_drink"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mango"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "squash"
+    },
+    {
+     "name": "distr_sink",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "d6c404879db0f7a1aed61bd2aa6a8c987b5254da4a7a7810ba351779f0d3ef0e",
+   "image_sha256": "c5e9378f2a76969ff7872bece6d11c7429dec76248dfdb73a03ef5f93b9e035c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_sink",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "73a3ee943d7a903edd4319c76b3636269b8cd87595fc098c1ad55e6f69142806",
+   "image_sha256": "2b7cf01520ba3f37d28814b4855f25a6f433a57cc2d10045d01e2363cc142061",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cereal"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "290b3647129baa0e528a1220f57a5f51f053fa6e914b75a9ff02f10d1af4b727",
+   "image_sha256": "64f7025f3f9cf4f17b4e793d5b3207557cbbe88d853c870ab8c84d880d0ce662",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "beer"
+    },
+    {
+     "name": "distr_sink",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "47059d9e018fac00b47defae7cb0e7d5c7abb41c2920402c7a46798c9e5fdf13",
+   "image_sha256": "d9e1b018c139df75ff4e6480cc17191479244088e6c5a562f9c5c65bf7efb35f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "yogurt"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "waffle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "banana"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "a0c0fddabef654477f9b7255ce31a8f469331d5c4082ca4873046ff59949c801",
+   "image_sha256": "c6dd26e95e1e7c8a757c3b33dea40eaf491e5328fd3f4e3eea7f6fa8f3127b5f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "corn"
+    },
+    {
+     "name": "distr_sink",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "9026dfc111125ddde89c1845c296c082a9cddf641c4f38e17671ae6f8e073332",
+   "image_sha256": "5eb199c46bd820a8dbe450a67542f5ea14bca8802118eb246e5ccb2ff7f79cc4",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tomato"
+    },
+    {
+     "name": "distr_sink",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "2cba7f1eef76c1d80f7f9d2baf6ee2c902c1f26edf1a2836ed9fc5b84f2794de",
+   "image_sha256": "70e4c7de799226026ed3ea6ea47f929ad1e662aa8e8e3732e7e2304e53101841",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cup"
+    },
+    {
+     "name": "distr_sink",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "03e6f6fdd5d91fe3796b8536d82b235401d11bf9b4f58d437802e92d5ddeb985",
+   "image_sha256": "8a045956f1553b32563a430de5ffac16034f62cc95aef2c0b333f2ccd17072a4",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "waffle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "carrot"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "1d8a14cf7056e9ddbddc43518adbd30892e6d7b557a85b60c798d710a6f50e04",
+   "image_sha256": "d3a4a36f18d5583d8e734991806533d17d76f131070e5d6d6249369123107ea7",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cucumber"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "e84bece371e61fc7f4e64e64743aa0e23c7496d95943aacbdc1f873e77902f7f",
+   "image_sha256": "3619488e1ca11f17522ffb3d17e2d7609f725deaa41eddde80c4c1bf8a8aeea7",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "jam"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "865953a8391ed4d4cac59cfff4bae4e0cb27b29fa111060351b31fa408657bce",
+   "image_sha256": "6ae6920b822a13de10fe8da73b5dce93190f59dbca2b760420fcc15f80c79b56",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "chocolate"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_sink",
+     "category": "tomato"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "db1eb87dcf9746daa166f3ee4a3ecc39845eb60777d1e857bbb0bd997248fc55",
+   "image_sha256": "71be42cadf99d0d632e0f7beb5d2ee10985992a501a9229bcc00162db99fa225",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "can"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_sink",
+     "category": "jam"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "bce6e4e51b66c7feff88bf8ddd4be30e17e57be2a3e29d6fce3d1e7387a9e7eb",
+   "image_sha256": "cca9621287062a1a41678249c32c4cba1c913b35f36fde2fbac56c6941396a14",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "water_bottle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "197eea69236c402e71660be93fab0c9ff7f9707cb74b76edce182f53f830fb5b",
+   "image_sha256": "b1931c6cdd2dc0bc0f95a419c3664bf92ff0c446afd86e8dc62132a257e6b9f6",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bar_soap"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "77d90e033011e853dda2ec90c4653b37fad8b78678b7b1ae733f1975b2a7ad83",
+   "image_sha256": "65741a8eb0be21c8bc6917f9e2fcba72c3d1dc0ab63dbaa47d2ba12686315ef0",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "spray"
+    },
+    {
+     "name": "distr_sink",
+     "category": "orange"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "a8997ef3e4ba695a2b4e9f04811a5c65fd6bf18be4129eb7dc81685d7149d013",
+   "image_sha256": "b8b90faf95017149225306ed8b703992434bcc9bd1f0adb039d473f9f140a442",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "spray"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "beer"
+    },
+    {
+     "name": "distr_sink",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "12d48c2a46301030e4ddeedac55627cd42a0f735fa6d8c4eaf3a7339d1f688f0",
+   "image_sha256": "788d3dbf8ac3cda7190e67c6b00999b60b4cf744753fb0038723ce79ae498028",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "steak"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mug"
+    },
+    {
+     "name": "distr_sink",
+     "category": "beer"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "3fe840e745a53d9d51030db39edbcbf4c4bb5afabebd2424ad4238f08a0bae33",
+   "image_sha256": "8054c48d087ad2c037d0830dacb4a7b32dfd2556efe04d9a3fa6d422ddfc59d2",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "banana"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "croissant"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "c2156b26b9ffa1de9a7d7fd6ce71d859ab2673043d6ed3b3a7773b943a5f63bb",
+   "image_sha256": "c200a0c4046ce7cbb0e2c553bdffdf8322c2fc0db01ae9fd0adc72fb2d92ee18",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bagged_food"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_sink",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "543f603c023f5e31b480a6ee7dcedc2e4017733c9241607fed0b21d2097e77f9",
+   "image_sha256": "cdb3e99569fcd42a49be1fee50e4d8d3102529546137bd4ec9871008563e254b",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_sink",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "69601a140c912954e8555fe2cd1066fb08f78e4de2b30cc5c794f4eeec1f6346",
+   "image_sha256": "8d6ca797c1e343c6992f9374f30d8852d3c762502c5897da7c04e1d22d17b881",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "jam"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_sink",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "9defebec81822e1e94d7ecd101a13e9ca43ace37234fe8934a99ee8beac23c94",
+   "image_sha256": "e047622052bba8ad7bf6ed411296e39e23bc7de59fd20c447e5dd2c688d0fb0e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "teapot"
+    },
+    {
+     "name": "distr_sink",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "bf678d56c7e54c76580867ea32b4b18f6363bc2763498c26127f3c2be2f62fe2",
+   "image_sha256": "e7bdfea2b1c1bc364346e55dd6f115e7debddb5259182db3c5309f9367e7806e",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "avocado"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "croissant"
+    },
+    {
+     "name": "distr_sink",
+     "category": "jug"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "486c1c154064c9e1c662ff89490fb23112131950b1044589249e404c7c334ec8",
+   "image_sha256": "4201969c19a036b4aef10dc4bb7db0704e1057ece5d86776c2ea99f1b2ac8147",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cereal"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "potato"
+    },
+    {
+     "name": "distr_sink",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "6616317f25820fb120736941d1739f2619df0bc3ce2367c192648c35e3f96795",
+   "image_sha256": "28d113983f4313f2e8b290f4dce16c2cf123c385c42652d591db3b7b93b2a60f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_sink",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "05ae6e5351f053915a5b9fe9eb6243dee60041f5eb21e562a4709828a6da93c5",
+   "image_sha256": "9823093e54ede40d1a3adddafc2e160c36c9a5124fe6db11f1013c6134f298e5",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "wine"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "f9e70f3e5e3de350f580c75da965013ee91906a3510758543e589ba30a82d268",
+   "image_sha256": "6b60425936e5ea4871cdd974c6ff24b659256d70a3eaee8795e2239dbd519a0d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_sink",
+     "category": "egg"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "efabad71173a91b80e98053354b86cc610f89df70f94bc613550e9da6c414038",
+   "image_sha256": "b3f990f75e96608aef1c80942546cd71895c234b24c199c32221cb8975852d81",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_sink",
+     "category": "jam"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "93603883a3f08f9c35af330f88daef3dd3923005f70aa15d9fc1f057f3389f9e",
+   "image_sha256": "4bb7e6ee6cda3c8e956cfe271deadc429afc5dd2f7645ce6f34ba688a6bba6e3",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "mug"
+    },
+    {
+     "name": "distr_sink",
+     "category": "water_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "f2499ee29f214aff2fc37ddb4b721859cc46bf0bffc1ab9d6bd6d1a7beec722f",
+   "image_sha256": "6019930138049339f234e88483b9cfd598fbe3faaba42fa6528db0709b0cd43d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100043,
+   "sim_state_sha256": "58c1b447ba8750990aa8c837b89f11e6f1a82daad2d4b1735a57ebbdf45cbf04",
+   "image_sha256": "3619ab79eb4504d23c6581338887fa77412d7bc900047d8bec1b9e905763d7cb",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bread"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "donut"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "spoon"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cucumber"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "fce5342f47f6a63cfdaa7860013f0d4947b4cfaf9f7cdffefa20a82575070b9b",
+   "image_sha256": "507307f7274f7b4f1060de4035e71cb0331e5835cb517af12fb5b24b40232dbe",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_sink",
+     "category": "tomato"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "db71b2a89424d8271efa3f40a2c603bfaef057821d450495386f160d8a2f7865",
+   "image_sha256": "aad6855ff9ff7285e7daf453abb5ab59b7e5f9b0393e63edb7bc523bd59b9f4a",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "candle"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fork"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "teapot"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "ff10cb60921f99f093c23574fc0c4983e04c2f8eecfe603fdc4ad8c693a87102",
+   "image_sha256": "9ce0c1f6780e8dc1c10bbbd3336d4d8dc718dc9b683253987d94ca757876914d",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "boxed_drink"
+    },
+    {
+     "name": "distr_sink",
+     "category": "sponge"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "013d7e893fb677c01256fc97ff7dad36f421c62daa1f35bb961cc57e27c56caf",
+   "image_sha256": "8757a2a3f0928768df4f7c7f71d4e46a3cac8847d398baff250e1dfb17c0b4d0",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tomato"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "beer"
+    },
+    {
+     "name": "distr_sink",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "c88f736672c8c313cf05af2194f52c8b3cea41c830e5ed81314c7c80a755491c",
+   "image_sha256": "028447d3e06c1d51599f6fbcb1a39e5b23f9b7f3e6f40dd7fb0fdac98c5f7328",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mango"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cereal"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100065,
+   "sim_state_sha256": "1bb94d75e92503ae85ea3d0d2cea4a8d9b1094d93e5c8dc3a90b73d638086b23",
+   "image_sha256": "5b7e40c6c8171f53322798a710cf34345c91cae3affff16f9b5f419145c99d4d",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100066,
+   "sim_state_sha256": "b2e325303d772f6aaf1be2b5bd651e53acdcda55141bbce69bc3e70a57bf522d",
+   "image_sha256": "9d6a6e844051b4d64d829b5b1ec907694edf85aed2417553890176d7eb4e7a69",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100069,
+   "sim_state_sha256": "686ee71203b21075a95c67f14b6d4ab2b02051456a9b4ed317be8b9f6036ff52",
+   "image_sha256": "3abcbafca2d5e1c72b7b174c794f367004d102cf05f7439c258229a6018d3515",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the sink faucet",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "pear"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "onion"
+    },
+    {
+     "name": "distr_sink",
+     "category": "avocado"
+    }
+   ]
+  }
+ ]
+}

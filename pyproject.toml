@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scalevla"
+version = "1.0.0"
+description = "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters"
+readme = "README.md"
+license = { text = "Apache License 2.0" }
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pyyaml", "pyzmq", "msgpack", "msgpack-numpy"]
+
+[project.optional-dependencies]
+train = ["safetensors", "pyarrow", "pandas", "av"]
+
+[project.urls]
+Homepage = "https://galaxygeneralrobotics.github.io/scalevla/"
+Repository = "https://github.com/GalaxyGeneralRobotics/ScaleVLA"
+
+[tool.setuptools]
+packages = [
+    "scalevla", "scalevla.backbone", "scalevla.data", "scalevla.data.builders", "scalevla.features", "scalevla.model",
+    "scalevla.training", "scalevla.serving", "scripts",
+]
+
+[tool.ruff]
+line-length = 140

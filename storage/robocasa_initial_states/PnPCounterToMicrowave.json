@@ -1,0 +1,1342 @@
+{
+ "task": "PnPCounterToMicrowave",
+ "env_name": "robocasa_panda_omron/PnPCounterToMicrowave_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 14,
+  "2,2": 12,
+  "4,4": 15,
+  "6,9": 10,
+  "7,10": 13
+ },
+ "created": "2026-11-04T21:30:59+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "dc9a814c72bf5b079cb1fd5a4b994fcba2f1cc38f33cf0cd534bcc32a3e29f68",
+   "image_sha256": "d29b0650134257e94ba56b8525a8217bab78890b10672f1d380b285b749b38eb",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the carrot from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "d0539f883c215979b54e2b26b5be48b7c86642868817e0461d445350c6c934aa",
+   "image_sha256": "51b93b1ecdfb8687c6437f8fb9861d2f84c6fadcec8eafb03d25de8b2aa6a004",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the steak from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kiwi"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "9b7da4ba83e81ce9438667e47cff5e1f6164e3219378b39a4ca48ccff5437a5c",
+   "image_sha256": "04ee3a67f74107692435d843690c0a124e573bd1969a6bba4b58784b3bb7669a",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the corn from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cupcake"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "60cdda4a81a8176b790fc41138fcff64f2f03dbbe2d68fc2a9c40bae76438cdb",
+   "image_sha256": "35ed44d4e4d5c6997ac3824d98294c55a865b1acccbf6329bc9bde851f83de04",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the egg from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "spoon"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "86af13962cca06ada62695c02524dd07744d35eac45bee263b2fbd3b09ac915d",
+   "image_sha256": "3ae997da348be2130154c7e44e21f6c9e56b74b95260f588aad8ad7ac79e241c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the squash from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "2a3bef5be6b5d1828b10ee2f762ff9d69cc69d59181c06cab5c927d0dc0ea871",
+   "image_sha256": "6c97bba3d842bfc837a21c7357861c6f54cce45f0bc750bfbc81e3021fc8d0af",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the sweet potato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "boxed_food"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "0c35f22ac089b20c2f1d80a142c3252392a64ddce434b4aae3764485c28eddb0",
+   "image_sha256": "d4be4c6fa760de7db16cc18a59157e24121d5c42e91af9f41a84a50a37a1c919",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the egg from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "condiment_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "675c13a9d4fb4e9645311569493958c8e417c9c4c64098e5db360714f252b680",
+   "image_sha256": "bda37d6bb5a03d38804ac8d99d2ed894e616b47dc9d6df140ede62bc745e4ef7",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the fish from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "fish"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "waffle"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "70e6ac3553e6df3feb63a64efcb39d06947c130bd79bc60a37583f86d505cbe7",
+   "image_sha256": "f7eadb0241834de0f5db0b7afdc85989fa9a47ffa4b6a43b0fe5515da98304c8",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the egg from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "420031d4f13f2be0a7d9a8c421d0570d8fb65b8ca948c4475876f1aa902d4b09",
+   "image_sha256": "6dab2b9ef89e6703e1ae9d2c27889865a6d7793ad1173b07278db7bd0cf7a2ce",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the onion from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "candle"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "c9ba38498585238af15ff6035c75057877f6331d748a276400b1bff1931b59d1",
+   "image_sha256": "bc9a58cb0003d755db67bb131aabd292e634d17814e7dd4ca4221690a919de4d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the potato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "9ef4e9f0d9137f79ddd7504614be10484b8376c2ae3a317dd43020309cf49019",
+   "image_sha256": "1ae92491ff2d800bf380e035b62cb542d988b99d9f4330906ee3387037282798",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the bell pepper from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "candle"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "b84bb6f33ff9f0066a3f4bba77f86bb47dd4ca24a1de7e9e666357d2132efd2e",
+   "image_sha256": "8a206c7d0c37a0874ee8316695822d1589f9576786aca75c7d368c297033b315",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the onion from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "apple"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "3c919bacdd149ce13526d5948f5df4789dfac19654c36f029a36731bf6f446b8",
+   "image_sha256": "a3eba49502c7a2132e06447178b54f9677b7a3104cfb09c738439fa5d7c7a7d5",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the tomato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "tomato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bagel"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "aea4e7b378a3b1a00f2fa65b4189a8a16f20a542e406b88bf292eb0ab8f7c1e3",
+   "image_sha256": "47a11ba80136c85f0346061d7f7dc5356a6bf0aa473fffab0369a619e4b95ac9",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the tomato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "tomato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "egg"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "74ef36e5d22e62b824cd42a1cf8c2da17da487771cc2aac3bede2c70e2e12433",
+   "image_sha256": "e8e71e7d5723a65b6628c8b6971f990d2bdeddd3e49ed82346d37628b2de7f94",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the eggplant from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bar"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "2391fb147d9d885034e88cb0959478e7a1007dcd7b772ad8a2103100e6fe39f4",
+   "image_sha256": "292d0c8f6e0f3de62a627364c4d88c20979611e288ee48fa320dd4843794110f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the onion from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "avocado"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "eef4394a96ee848af484afa93b2ac10619b83ed76657485d138b34216e197766",
+   "image_sha256": "94ba0f0a53b147b316cb69ddd8a34f69a48427cea78842642e3fc3aee6d97e12",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the potato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "9fd4aaa2f1855d8ce8b773822cf65c6e46c0544cbcdad13c26d0efd7f61a35fd",
+   "image_sha256": "081429785bc2361e414a68c800cf2693d616f58c3d7c7d3ca2cbb59f0cf2b8ec",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the potato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kettle_electric"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "b9dc8439751837a57ad9f2e35e53c1c5cc1bb9991e718a66c3415d7c21cb16dd",
+   "image_sha256": "9f769348fe1936e3f68c4415bfeb8c3f0f8e5bc55c76375c8b14619d5cd46cb1",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the steak from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "fork"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "5eebaeef368e555443955fe81540b7fc027dc58a5800018667cc5d027277cba6",
+   "image_sha256": "db40b64f1303e640de1e4a70ff2d2859304df49112708de465e0ab692d2d68a5",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the broccoli from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "487e0fbb0902a8f51a5dc9de039990949288bb338c88f33cbe3823234cb42c80",
+   "image_sha256": "3f1bb6d6c6eec804b906b75bc9b8b4d5a380b7313d5f1c608cf9b9a096c66a47",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the potato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "99954a9e3d5bba099ec1254094ea0879933b7168870657a2ceaa65038f45b076",
+   "image_sha256": "7589f0de617fb67dd247abc2906bbe85274336338ae8e2c3fc16f58a86f37e33",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the carrot from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "8c9f84752fe411694b94d935bef39039ec6b6345c2c1256b4b514b94c2ab75b0",
+   "image_sha256": "1d8b2647a0f541a0e7c22214a814a864a9f561199cf9feb415a9a234c4c97547",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the hot dog from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "hot_dog"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "apple"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "0f1fc52332e782668620a954a1ac2d133484adf77e2c25320dca7dc0795a2d52",
+   "image_sha256": "29f40c3c593474a9df24783d6f4ec21d9cc24705c9e8854c4006bf0a777a65be",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the garlic from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "garlic"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "tangerine"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "da2d6da818f4767c78913ada6a7e12df63976783e54f12d68c3e810242357903",
+   "image_sha256": "f4e01e2b2ad771e941b9965243a8554f3b11106581e28f3c16aadb3cc4e06431",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mushroom from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "f0535fa67ac676bb0c32f7a291c15faaca8e162cd543a44b38d66dd48f765074",
+   "image_sha256": "20a3f19b8a4d288ced699f3e341f029cd0e22a9a7f8a34e3443f3cfcdb800501",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the broccoli from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "3fd12d35f2f096b25dd486950def8c73114abc49f7eee6dee0214c509d12ee16",
+   "image_sha256": "f7d22c3a08fd349573dde8fe3279dcfe68539d09c1b0a8dcb7df2bf1c7fe2eee",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the onion from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "apple"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "45c1cbbae8745301235a54603b7285cda2d3cac32e61e4c50e06e676ddc92169",
+   "image_sha256": "754e9249b423cd5730fdfdb748df0ce7c8f5cddf735de91d6ef00bbf574ce757",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the egg from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "c5210a5d54238fe6e2c8e6b2546e718094ed1199ddb87e4e05c045adb94d613d",
+   "image_sha256": "81edafa6ddb031780be10917a24d2e4f6151cb0b5f286e174b15e591a70d1d50",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the onion from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bottled_water"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "4aed82d26d24085bcf9369f34e3c07062a5e8b9c2834a2faeca133fb72d3f1e3",
+   "image_sha256": "5b827a68dd4912d7bf968e0061d54b16a46fe55cf63af36493962b24bca1eab7",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the corn from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "44af529956df1b91228881d0930b9b637ef8e9040ae521567f4e5c65cbe6aa4d",
+   "image_sha256": "69eff68ff8b30d4a3f9ebf50fef2a127083285e44ea205e0c08c7f3ab3946358",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the onion from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "26e1693a4cb1da21ff49a5cce15cfdbbca5a7134bec7cbcd7569660a5605f9f5",
+   "image_sha256": "70db63d86bd0d3ac8e43950a75b4597483791c8f2964b21e4484804bedf598dd",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mushroom from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "shaker"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "742d0e6cfe4ba9bcff6b8aec07082421fb28b4b0370201350335b684adc33c6a",
+   "image_sha256": "40f07e318ce212817b1f9002429fce5ceadc9de953355258d2eed0b3ab2d3cb0",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mushroom from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "55337f010f0421da9876a87380a699b652ed8242ba9e8e70edfc1c0063683698",
+   "image_sha256": "728c8cbeff62902c82eebb2d33c4477a15596dcf4b5cfd418f9910ffe595ffb6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the garlic from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "garlic"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "f5eee90e6b55a6dc6e35bafe1db5e382ad732781813ae0a27846a013057bba5b",
+   "image_sha256": "345a954d6837dc16a22f43adc04d0cc306a1ce43cd35fff4e595136cab33b23d",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the egg from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "egg"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "50d93ccae1e7ef79bd2249b5aed659a66fcac707ced2bfbbe04231c5b483a29e",
+   "image_sha256": "b30810ac6cec190e612d7dd4177824c07759d5281043fd335e9ef61069d0969e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the broccoli from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "4d74c87ff1f73195e9bc7e6e4489474111928b34f267fbe7879c8ac39ee4099f",
+   "image_sha256": "98d735605b6c7ef8d747a09c0941de1f3fe1a0661fa8e27b90868716b6b80e82",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the eggplant from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bowl"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "b2328e1c188df965e11e5943109e4a6a2e69f1acb92cf1a7bcf981cef0a435e7",
+   "image_sha256": "3c7bb2dadc8ed3ff26b2f4e07ac1fd2e82aed0c152f538550ce0b76e2e8785a5",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the potato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "b966521b48224d3efac25a3929e4249eee5d749c9bceacae5d876baf381b3198",
+   "image_sha256": "6665e0a93c3c20e2f887f100247af2c7717f6acd8499ed56d80aa6f7c5989a72",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the broccoli from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "416fd1d18148297f07299c630b30fd340ae2a30558aef0751700af474ed70d75",
+   "image_sha256": "5f72b56a91c88d4e597d1d20b3d128191a8207555c08d22de598acfb25e3e254",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mushroom from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "258dd365e07d55b460f37774420220b288c28eddb5a7f28e90e219fe3ccb11c2",
+   "image_sha256": "e6e267d4d6fe1d07730b50589ea0070a4ce46229904b31e6fd92e9016ee844e2",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the steak from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "ebcefe0c75127ff311b24bf9afa7c764da8dda4611a259b4fa4f1b71c3ee1831",
+   "image_sha256": "4f4ce45de6cff8684a5fb06fecd9614a7ac4086aeb078cb797dcdcc6c432c0b2",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the bell pepper from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "condiment_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100043,
+   "sim_state_sha256": "26124887ecdb41316ff066a3189d8790bda780f4e3b91ca989aa7f7c01091e3e",
+   "image_sha256": "b437d3c90f18cd19df34b5988bd54afe92c9c54722f9b9556688333ff0ba7828",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the carrot from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "carrot"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100044,
+   "sim_state_sha256": "80d7113f4bf28934b419f35217d56e1e8b43e24832bbe099a0c8e3a51e52ba3e",
+   "image_sha256": "edd0180f4d43069921a68fa585b845365254b56d78154df2d9abbab02cfe84ab",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the squash from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bread"
+    }
+   ]
+  },
+  {
+   "id": 100046,
+   "sim_state_sha256": "92162c7715d7bf26a789311fd7297db2199a09f28b311439e06d252d08bea28c",
+   "image_sha256": "6af60fb485f166fa6ca99649d0008d0e7dbcb7bdb02ec6cdf80a92a5ee7c0dfd",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the bell pepper from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "pear"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "85dd283db96013c2190f5eb5cce860ddb9c0048c3a127b438d1d7c31e7608357",
+   "image_sha256": "e6223c783d1bc2f13833379ff69ed2d0f4b625e1b050d7c4bd29528c927b8fe3",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the broccoli from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "285dc7d453b9958d957a9eef748e9917c5b0c1a1301eef95947350b15c358ced",
+   "image_sha256": "292f3773581df5d081bbf8618643652edab8a4cf288124e7dc043919e04b6fe0",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the squash from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "squash"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "water_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "1fb7deea41a87f6c4b1e0d1125da7926cc36e6585573037c3c04d94ff93f45d0",
+   "image_sha256": "56c74038b3468b7a1a6da69909c41083afc79cfb0ce9f0c564dae3bff084faaf",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the steak from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "peach"
+    }
+   ]
+  },
+  {
+   "id": 100060,
+   "sim_state_sha256": "92d41bcc3f12e999ac32108f6b7f34fdf8ea4acfabf5a2d5dabf08f9c4b669d5",
+   "image_sha256": "54d6b7d37668ee62be29d13c210645680956a98c7c660a878e6799fcd9378be6",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the sweet potato from the counter and place it in the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "container",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter",
+     "category": "bread"
+    }
+   ]
+  }
+ ]
+}

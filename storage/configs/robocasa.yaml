@@ -1,0 +1,27 @@
+# RoboCasa: one policy on all 24 tasks, for the Gen-30 or Gen-100 sample store.
+#
+#   torchrun --nproc_per_node 4 -m scripts.train storage/configs/robocasa.yaml \
+#       --data.samples <gen30 | gen100 samples> --data.cache <cache> --run.output_dir <run>
+#
+# Warmup-stable-decay schedule: 1,000 warmup steps, constant learning rate 3e-5, linear decay to 0 over the last 20 % of
+# the steps. Task-equal sampling comes from the RoboCasa embodiment profile.
+data:
+  horizon: 8
+  pad_end: true
+  workers: 16
+  stream_block: 20000
+model:
+  rank: 2048
+optim:
+  lr: 3.0e-5
+  wd: 1.0e-5
+  wd_no_bias_norm: true
+  lr_schedule: wsd
+  warmup_steps: 1000
+  cooldown_start: 77218
+run:
+  steps: 96522
+  gbs: 640
+  seed: 42
+  save: "96522"
+  save_state: every:10000

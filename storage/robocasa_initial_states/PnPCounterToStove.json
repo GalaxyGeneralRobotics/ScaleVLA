@@ -1,0 +1,1142 @@
+{
+ "task": "PnPCounterToStove",
+ "env_name": "robocasa_panda_omron/PnPCounterToStove_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 96,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 25,
+  "4,4": 15,
+  "6,9": 23,
+  "7,10": 23
+ },
+ "created": "2026-11-04T21:33:59+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "5ed8fe8db1c8e4a6b06cb6b462bb91b7e45a5d82596f639b51a12b953e393a86",
+   "image_sha256": "e8be4ae0ed2d825823321e14dd714ecace949f962aaec5fe6f8bbd6d5271faae",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the bell pepper from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "860fda01538c7f99c343746d023112a7fe0362ff1be4e5bccfd54fcadbf80886",
+   "image_sha256": "3d3ed301041c2cc78f00e3624aeccdd5669d5398568f19863c9ad2410ec96a70",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the bell pepper from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "52caf657b2761ff9f5271d60757b0fe956f0757916485fbf0fc01ef5404eddaf",
+   "image_sha256": "e3aa358965787e97f8e244a924c04cbd10bfc56408ed5c24f7984498eb81d53f",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the garlic from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "4f9f7c293384af252b51b18492e89b56e16fa9f350ab2ac907ddc7f23cf12222",
+   "image_sha256": "4d4e99182b40f3e827bc7f9966388db0fac86fbd41dea2367e799f4d3747c509",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the egg from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "egg"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "ff59e18ae43ddab5b1d1f858192907af0a78e22cfb3c113007dc553ae4ed28a4",
+   "image_sha256": "4b167c23bf8bb7c976013fafae9c4b6a994cf0700c990ac5346e76f2af1e555c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the fish from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "f029cf8d7d61caf35071530488cc211f9d7bdc6beeaf935c6ecb14fe5afeee67",
+   "image_sha256": "8d7162323fdcbd80a114dc5be764858c849a21541fca6f65804b8da8fae1a277",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the corn from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "e4a78f524b1323732512b0b843fdd42e5eac3285d7cc5c7bb2527f852c873abe",
+   "image_sha256": "ecafad511e31c9aacdf4498f37183186fc62db71f2cac55cecd8f965f829d30b",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the carrot from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "carrot"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "426f5dd398e12643bd72058cb6b2960bd30fbca63fc613232927dcfa60c81a07",
+   "image_sha256": "180475ee579f3624bbbe6ae9e45831e885e1f2f6755631c84447b3c059c588d0",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the corn from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "ef728c3e31ffe6f7af2590af88b8b3ede5a5ec3f05b1ab325597760ca8657149",
+   "image_sha256": "9496bc4f4b06c5cc574635aa97f7ce4952d8451e25a9ead8daf80a83a76149b1",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the lemon from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "6ac80223f1fd76aa9358aaf32b5656373cb71755375dfc71942b1c3671b9147f",
+   "image_sha256": "737e1fa7ea5609c04664afbe6ca448ddf0f85bbfc3b987bd1597420a99eea852",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the steak from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "4ad7aa8cf6efda1b421b29ebfe7a93d83744ae6239c6239f45450267bdedf364",
+   "image_sha256": "4a3f018773c2dab1c5cd98ef83b383d839241f1a26ab0b35888ef642d6b67d51",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the fish from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "d9dae0d6659daf4bb8541bfa6b67341b65578f14671f3f4f60af626b085bd3f8",
+   "image_sha256": "57fa8979d3c5019d2ccba40546831ba8dc5a70b47ef4515f9452ec773d71a99f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the lime from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "a62335c2b7bc7976915080feff2eb597cbf0e60a41569a522ee8e841fcad04d1",
+   "image_sha256": "c5b45c4b5f4a2f009fff292816d866a84a11b79d68cbe2b1183e69da9fb2b05c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the potato from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "f412bae2709f63b2a2a0084996a19868ded7a19c6fcabd05e1eccc67f3f6b46c",
+   "image_sha256": "fe6eedce27993343739806f30cebaa590a4741e620b9c8f56e62e2348470317d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mango from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "69528cdcc46e0bbe5cfab57f7f4e817dd7d068373fc075c4b9719f27fb361103",
+   "image_sha256": "49bd81ccbc2d53fb9e1918c655fe6d686ce6d664dcf2d709f0528f11d7da53b8",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the onion from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "9bc15ee80980e714107c4337bd4d59922c7b883a769d7fa7ed197d4ebd583a8a",
+   "image_sha256": "047b1e68ea804366057c9c3724fc0ac5563f06503babb3c455ad5ca7094bddb5",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the corn from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "0d7668b2607044bc419e41dbde0675b4ec727b50879f909793a1d7be64f720b7",
+   "image_sha256": "4e3e403c1470de2f286746e2cf1db97bc12c4aaa7ab3c278a39a2e4fbf38c2ae",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the fish from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "fceaf5069bad59298dc27be4d134913c0382d8ec71aef7002eafabd5b8711a0a",
+   "image_sha256": "5e00042cd1fdd4ae0f9dea6959c59c62c19bfc33e3e15d5f6393c73dfdd7d35d",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the fish from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "919c5653f8eb92f15c5d94b9abad9bd35cb2ef39bde336c65890c782e3552aad",
+   "image_sha256": "2120c28e9e4194c554c1b196c2a7602400371f8c07f83b0fe5344012d8637b92",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the eggplant from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "3a89516382b851ce35de72fe0eb347ed3f7bda842cf81aba6fa5a94fbc3e707d",
+   "image_sha256": "99a0039dc0086712e743360235e9245a26c90615bb56432f4b57fb8d570a188f",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the lemon from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "c20eaa3e32d0f0d059fca6ff0a819397624d74bdcf1566665ce01a3058027d4d",
+   "image_sha256": "02d51ad8cd2b3d3d9067dcd6a0c12abcafe2db4411408d3ab3c8e2faf4b9bf9d",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the corn from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "9a04dc5d643a20a440d474194f7ca1f3297502d9002a832767ddeeb92e78d6c0",
+   "image_sha256": "ffae638bde39ea1e8085bccf5f0515f4de04faeefe35ed189e14c6cac807b119",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the lime from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "593b41b4584bf8644186e0727711af29605be06b03d012ec79b0b75add220a04",
+   "image_sha256": "f203ee4c4505ea9d50c0f8ab5f492f0e720f7b7d3fdc19417b75950334942843",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the cheese from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "62ccb26eecf04f2610804b01a90d361230e3103c48ff84e3e54347b0537dfe62",
+   "image_sha256": "18c85a1c1f535f16d35e46835bd3c7edeb7ddb3f97d9ec8b83c9d80b6df7c77e",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the onion from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "1250254899c9dcffa9b363627677252cba7da757ba503a608057e59e2415d30d",
+   "image_sha256": "39956a258f3ad787543da74248d7e2b935d1a2504d46e976ae498a8ffcb03d33",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the tomato from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "tomato"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "0abeed6f9b32644ab2c9828b62b6551336ea7058d3c8cbc6a414a3f09551ade3",
+   "image_sha256": "d77adec8b3fe4f0ed87bd3bac746896402123d806a07bd8a01116b660a374394",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the carrot from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "carrot"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "0f9275652bf18aa299730103ffd4d20510c69ff11478c77030a62660dd91e3c0",
+   "image_sha256": "dcbfb3acf8b9adbdf152d7251140e99f264400eb014eb8717258a86668b54811",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the sweet potato from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "4d2c1a14bfc8604db31d56b3c9d0ebe4dafdfef1d31882208091a1a3eb252b3f",
+   "image_sha256": "16f22c5156ccae43e4d98d846edb663c0bd05b40806311eab0f6614d8d4a6310",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the squash from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "squash"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "08b1c6e4213347d8fcd0b9edc1fb6a9b27fe8d88679eae444cda63e2f1303587",
+   "image_sha256": "1cc40c57d3dc9f390d2a8bddf6e95b735e85afaabefabe55ef0002ae261e2e9e",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the onion from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "40610feb26caf47f0769a77b16ca1580dbfb69342256bc1934ca8d9fd6408981",
+   "image_sha256": "33546fbd64cae145a99cd00498e2f5bd88e0e963e904b3cd64d1c50b2d1dbd69",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the corn from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "a26bfc7f350360037d7943e2a95afb3c5ff14c77dbd0ce837678c3f0fd446998",
+   "image_sha256": "675c1ccd4431e5d54d59b7331749dad70d7995806b5da3f0a0130c20d90ea1e1",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the cheese from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "650feaedbfa9198f98bde92618ba7d6ff9e2ff468f355f4c7e8a73f2127249b7",
+   "image_sha256": "fa59ee99312f8c5084967597846ec88b01e69af876a603dc8999fcff0f07e54a",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mushroom from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "46dcec090fc01108e0166fe0ff23a4bb90da48dde74018c38170fdb3c27aed9e",
+   "image_sha256": "bd9f30e3e88233a5ec957428cb700b03fab63bec180941c4d71209584216b53b",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mushroom from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "9b275a76f1d6008db651a5994b763dc6965555ac70a804f88612cc0f3afcf01e",
+   "image_sha256": "5899bd4d2ba9e10e3cf5aae47c82ec90a06a33666df1cbc8657019185c729527",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mango from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "319d20f353d54dd699398437e3ffc04622def87ca3df686946643aeba37b5033",
+   "image_sha256": "f74d4e43770328f8ff9f99928d52c34f157cf0994ec7f674242f43ff11cff7d8",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mango from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "9ec00096f50c5ba6980cfa0b8def165f1ba5975136284d6525116384960faa3a",
+   "image_sha256": "fb713998b5a3f910c6bcb098006c84d56e496d727992d8fdce580ad6b054c13b",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the steak from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "02567b379b54d4e97354371e2e76956a9bf62944b0e5affbbb4c4ee8a37e9800",
+   "image_sha256": "8f95d9b788fcdd14364ca418d7ad091e2909ec5fef367d9023138d234c3c9723",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the squash from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "squash"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "cb44b454edc1b0095601b0dbcf1c3b9db017b13d38ccb575de9ac01417f5b0b8",
+   "image_sha256": "8d5a3f54740a72d7b14f20ba5ea650b0f1e052825ebb65b4f753c8ea07184b0e",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the steak from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "f261c775cc6456bbf15c323263cd5bfd33a6da9ec7ccb166f9ea96e66b06fc23",
+   "image_sha256": "16842639b00074a27ddc766c4e183e7a2d8499e39590d8a1fe6cd068d6d7994d",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the egg from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "egg"
+    }
+   ]
+  },
+  {
+   "id": 100046,
+   "sim_state_sha256": "8f7b88949aab0ac51a8be7b99683ac25a0f20a38f0d8144d490bf5a9e6aa72d3",
+   "image_sha256": "8c22cdc9e4f05115442dc6979da9ae00916d52810fcd44925af4d3f83a365ace",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the garlic from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "6b8773fdd6d35bdff49a2df71cba2646b6093bc0124bf86e7ed93080185fbd5e",
+   "image_sha256": "ca55f3fca9f06b4f0134b95b24e20733e745e26df3e2797a54c149087f7f4a13",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the cheese from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "cheese"
+    }
+   ]
+  },
+  {
+   "id": 100048,
+   "sim_state_sha256": "2ec260b36323b7b2057f23ddb39d34b61bfaa6880e30a9e0a9f67ceb1edd2bbf",
+   "image_sha256": "7eee2255b5c843e106a9517aa9f8378af1e37754107429815b8cbfac538953ec",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the corn from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "799c7cd5fdc8e399a0c509a5476250f5b61c7e872f4ca890fa3cc67e5833756a",
+   "image_sha256": "68812e03529cb754f0725cd2581ec53099dcb23b4b596478ce75a2b98fb7675c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the onion from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "5088ac320b2a4011cd20a39a11be59708c0b639d1e0ec1724955d65df843940e",
+   "image_sha256": "0deef6f16a18f0f8834a65b6efa4d531a566b49a35eb028887533b911e275c39",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the apple from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "apple"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "8c6a9ff6f3f84c02d11e1ee18555d2eb1b0e5ba0ba14d07a3ad98e65b2b0c783",
+   "image_sha256": "609843cf5c1486290d4d822be5f66bab0542d8bb4867c8889207d5a7aa3b3861",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the steak from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "c0a500abc367449bba6399a4bb9b1f8397b3f3ed9acb713e77e718c5c75b6905",
+   "image_sha256": "5a5dd87b91732f47142445578696ed255b332a71be1351730fbfc05e847f8ad3",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mushroom from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100066,
+   "sim_state_sha256": "3874070867a54dda16398db22a3f172811abc1f6925dd6e59c126622bf712728",
+   "image_sha256": "9974f6104e86a75aa5e455d1d2ecbb37f4118db92ca5849e3223b5929e38d228",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the steak from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100069,
+   "sim_state_sha256": "a76b23e9763101d453d8c855153094485910243ee4aa4c5ac6c4161cf8b2dc7e",
+   "image_sha256": "a0e073b37cd1ebaec01d40bbc7a4d3f8a31f993249d69bf052dd113b7fb32d27",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the lemon from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "lemon"
+    }
+   ]
+  },
+  {
+   "id": 100086,
+   "sim_state_sha256": "6fa2e0c2e5ee157e3b772199d2257f288622c869ec5b455523a5b2f2c8710cd4",
+   "image_sha256": "aa0d547cc1b1604f90a82c54b3ef8d0865ab06356178ad94141735b00b004ed5",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the potato from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100087,
+   "sim_state_sha256": "9df06599e96349fbd0913758ea8da12a39d794fc7b8192f2da3a84c75e58e6f1",
+   "image_sha256": "a542359b8635334cedbb100e90c3a7817a24145ca40060874f8b394da8b9c8c1",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mushroom from the plate and place it in the pan",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "container",
+     "category": "pan"
+    },
+    {
+     "name": "obj",
+     "category": "mushroom"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+--- a/vllm/models/deepseek_v41/nvidia/model.py
++++ b/vllm/models/deepseek_v41/nvidia/model.py
+@@ -8,6 +8,8 @@
+ import regex as re
+ import torch
+ import torch.nn as nn
++
++import os
+ 
+ import vllm.envs as envs
+ from vllm.config import VllmConfig
+@@ -465,6 +467,23 @@
+         torch.Tensor,
+         torch.Tensor | None,
+     ]:
++        residual, post_mix, res_mix, x, attn_pre, previous_aux, mhc_stream = self._attn_pre(
++            x, positions, pre_mix, post_mix, res_mix, residual, engram_hashes, engram_mask,
++            capture_previous_aux,
++        )
++        x = self.attn(positions, x, None)
++        return self._attn_post_ffn(
++            x, positions, input_ids, residual, post_mix, res_mix, attn_pre, previous_aux, mhc_stream,
++            mega_gate_metadata,
++        )
++
++    def _attn_pre(
++        self, x, positions, pre_mix, post_mix, res_mix, residual, engram_hashes, engram_mask,
++        capture_previous_aux,
++    ):
++        """ScaleVLA early_exit: everything before this layer's attention (previous sublayer's post,
++        engram injection, mHC pre-collapse + attn_norm). Returns (residual, post_mix, res_mix, attention
++        input, attn_pre, previous_aux, mhc_stream)."""
+         previous_aux: torch.Tensor | None = None
+         mhc_stream = self.mhc_stream
+         if mhc_stream is not None and (
+@@ -578,8 +597,12 @@
+ 
+         if self.use_sequence_parallel:
+             x = sp_all_gather(x)[: positions.shape[0]]
+-
+-        x = self.attn(positions, x, None)
++        return residual, post_mix, res_mix, x, attn_pre, previous_aux, mhc_stream
++
++    def _attn_post_ffn(
++        self, x, positions, input_ids, residual, post_mix, res_mix, attn_pre, previous_aux, mhc_stream,
++        mega_gate_metadata,
++    ):
+         # With GEMM-RS bound, the attention output is already this rank's
+         # sequence-parallel shard (see DeepseekV4Attention._wo_b_proj).
+         if self.use_sequence_parallel and self.attn.gemm_rs is None:
+@@ -714,6 +737,9 @@
+         # ranks to belong to one NVLink domain. Collective: run before layers.
+         self.run_gemm_rs = maybe_init_gemm_rs(vllm_config, self.use_sequence_parallel)
+ 
++        # ScaleVLA early_exit: stop after producing the attention input of this layer (0 = off)
++        self.scalevla_feature_layer = int(os.environ.get("SCALEVLA_DS_FEATURE_LAYER", "0"))
++        self.feature_tap = nn.Identity()
+         self.start_layer, self.end_layer, self.layers = make_layers(
+             config.num_hidden_layers,
+             lambda prefix: DeepseekV4DecoderLayer(
+@@ -926,6 +952,15 @@
+             islice(self.layers, self.start_layer, self.end_layer),
+             start=self.start_layer,
+         ):
++            if self.scalevla_feature_layer and idx == self.scalevla_feature_layer:
++                assert not self.use_sequence_parallel and get_pp_group().world_size == 1
++                *_, feature, _, _, mhc_stream = layer._attn_pre(
++                    hidden_states, positions, pre_mix, post_mix, res_mix, residual, engram_hashes,
++                    engram_mask, False,
++                )
++                if mhc_stream is not None:
++                    torch.cuda.current_stream().wait_stream(mhc_stream)
++                return self.feature_tap(feature)
+             hidden_states, residual, post_mix, res_mix, pre_mix, previous_aux = layer(
+                 hidden_states,
+                 positions,

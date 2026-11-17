@@ -1,0 +1,742 @@
+{
+ "task": "CoffeePressButton",
+ "env_name": "robocasa_panda_omron/CoffeePressButton_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 12,
+  "4,4": 16,
+  "6,9": 10,
+  "7,10": 16
+ },
+ "created": "2026-11-04T21:25:40+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "84a771f121d6f998d78ddc10ae531cdb0af0c87a6ff6debf89400f6c346d4301",
+   "image_sha256": "089ca336ff3a6c198772a35b0eb46ea794c8545e2d463ce24029a9dc19b5ff84",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "6e85a29dc5be654915a28cf9fe9a0b7aa776412139080027a8c8b4671ff7ad8f",
+   "image_sha256": "f9ffcc75b0f8d5d2ba8e86cf2c5a9db85da9e6995f3d60878ac68cdc7848bd97",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "b862535ce304ea08e1ea58da37a9e91850528172d91dd9a233522015ef8e0dd9",
+   "image_sha256": "28d6e23df88b1cac4da9a2d29590b3e5b7b2392933232aacf2b65373789dae4f",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "d4718fbcb4b24da6abb307fbcb18b5f75e7cb81bbe946b9f8475504998e15fea",
+   "image_sha256": "cd008ccc3077c6aa6e4c555fe85eb94349d0212578e4f27fe55a763edbaea918",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "77524e68d894593eac2d7b1bb3b89c2474cb55e5a8ba514a3c6002e00adbc440",
+   "image_sha256": "5411264ac38e915536c553d7d092acf19b315e4e51862d0e4903295902176779",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "34644dba057e732a9c099a694b983df9b73abb0d7526ccc32032e7f904b4326c",
+   "image_sha256": "ce5c634b7ecb933e51513bdfd178e1988dea42e9245687ff00de2aea13c0a8c6",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "f26dde22f517100f14463d3eaf2ba0e2a5a9f731c66a3cbe06f0d9109d9fbef8",
+   "image_sha256": "3636bc56455c4bd51a328c6f87fd220948d4d01806fd5e9da5475fecdeae500c",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "f19b5005f428c20dfa35aa8ff5fe1d0bafc387ddeecaa17eab79bd27729c5923",
+   "image_sha256": "a2f9bac1879cc623d596e56096b0c2903be0921075f28f9274ea068d0e2bec32",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "82ffdd8f49b3317e2062b5e59850cd29548a31a0c9bdb949ad189c229ee2a2a4",
+   "image_sha256": "ace3791c773254a93df32afb5a4891a4af098c0e622c3c139b860ce4da9468f9",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "8d478066790b6d7f090ea3b60392a2f518cd9db005c91178d0e533217dd76710",
+   "image_sha256": "0061887d05086d951049009cee5684dfcf75bdf51cba97208a3249faef25aa0f",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "43b9caa33221986404e92eeff6a4529736d5796beaab73753cdcbc8f68f380f6",
+   "image_sha256": "c8e9a1c330a8ed096b046e31b6169e14533f95bd97cab9716fc2c483fce42f6f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "5832456f2e4ffab620549371a4fa880b9ff72c59dc90ccbe890ff2f95f5be0b8",
+   "image_sha256": "180730b60868cef0f7947abbdb9efa5dc4a594641f756caff0270d8d392d0f79",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "b1a6d3d7d957e296a1fa22c81f87451974c817938b6ab02c16e8013acd71ca0e",
+   "image_sha256": "09c66f037ed0fb7fd8ae245ccb0a6332bde158285851f0c0e637ae4daab3ea66",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "11f12c12720a0cbc742ea6cc79bbfc26f23935b375993ecfa5320eff4eb63a8b",
+   "image_sha256": "f3dbeeabcf233c9276e49c5c78766aa843298146a6f2a701b53c0f1f348bcfe7",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "92c2ac44e2a9a556fc718ebd31f46afdc40cfb7421cb1a79d51f8a0bca567ce8",
+   "image_sha256": "8cd31e8cd6709e2e6cb5c9515168c900cc196a0ffb40a0366f5aa212a0552094",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "098a9c39e6dcb715a5d1ccdd9c6c6d1982a51bc1a587c3b6a480876fd1adae00",
+   "image_sha256": "4755b7b6355e24475aea960a22624d969d429cba223e0ddedc4bc08b17713cb9",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "3db63eb0bbe203085cb068bccb1da66d22d9ea55fb878b0b10a296f2ce9dc7b6",
+   "image_sha256": "59b44372f4366c17559b2d264f5d8f8936e4872ad2bb07826871c8555690540e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "ed469ca48092d0e73a1ab5fa6c32bb79625dbb11011c8bc874f94b667879b83a",
+   "image_sha256": "f47b8906b15a78434970ce427263778efe2ffe7a7897db7c9935bd47043e1cdf",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "5eabdf944c487b05dcbc766f0d72f9bdf039d87b0994487aa1fb53075a7bf5d8",
+   "image_sha256": "6fa982235d3fd2c937f0432b25ae53ac7f752550add5f550fe9cb48fa393baae",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "205185171c3f43349e20908d50c1c836ab2a6bc66643387af8857c887aa771a2",
+   "image_sha256": "dae4dde0cbc9afc4d48b119227dcbca3c5ba217fc0f8e1bf6eb530847a66bffc",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "21d94e95fce1943e75561d2e8260f2257e25c95ab52d5366757fbfeab20c4199",
+   "image_sha256": "b1030eb035c562d31fc4685b9562eca73665fbbda5eed1c24a6a4dd76cf61d5e",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "c193e6919fab652f21165e3923d106072716295337be3ba6857e8a5b1ef3668a",
+   "image_sha256": "ea8a07f84fc802990179c399b2143af2b31f0e3b776b4914f58b79daf1f61994",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "bb1b6c8adcb6ab898c8b1f8e99ada3bfb13c0b1205d17742fe7e1cc185ea51ec",
+   "image_sha256": "e1aa4586d070d0177ffd22038f3751c35eeca571ef578bf6ae93d70033d24b08",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "374859dcc6798e38c200d3a7fc71332d4885342e041826cdec2064135febdeea",
+   "image_sha256": "d99caa62cb2c3204b55deebbf39f834caaaee63111bd20ca190b84331c1a20ad",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "05d12590bcd616b22b52cbaeae67c9596988dc2541837a243f960d40605f29e2",
+   "image_sha256": "c23611ce5838ce7cdc5b7041d3baf197ba811a15de87b773adf58b5b1b64f5d3",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "e13c9e7ea8624bf168b8cd076ddab8d1d87e8f28c0ac94ea9f3b712003ae5b3a",
+   "image_sha256": "85e4a79cc286cbd0f2099ea89988be04e2244b953468d05cca40f0f3174233d7",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "8e9e8b9798064b95a438f4d0208632738712baa75de93581be73a6e721efeccc",
+   "image_sha256": "44a0f5b23554c70ab9602011355e8cfeea019af14bde4becc8c67a0d0d0d0588",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "10231829e13f20d5c31d1b2efa3abf934364b263fe41852ec30d2951fd203387",
+   "image_sha256": "0b0b2cd5ab072fe57c35bf15b5a1e00738e623187eabffbe1a09c334a1adb452",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "c9d7281c45c1092d5f7035cbeebd85b10c9a24c8782f9ee9169df585e09a55b6",
+   "image_sha256": "7f1023d8109769b46818c4f59b0c52fa711a18e300fa6617171670f767aeb66e",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "80dcc42effb33a0ca8aeb3b54b0581a9290112436fb631270182a0b6875351f9",
+   "image_sha256": "cf748e04266aa199aced4406b80da1d3740f66ba541e2962a20fd2674a853ff4",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "9c87dc5d805c8737d2614bd7e28e7fe85569a6c57dfd1ad0fa2be915b82cd9e6",
+   "image_sha256": "9564719f81f6ac17edede7fa09797c5b8148b59d99e8d4c74e6d76b64261f855",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "3d994da68dfae73e953e4b5eecf9cac1b3f7b400842b4cd8f70052a59df96939",
+   "image_sha256": "75440cd07570286ad529d3c63b006295448cdf6ba86a0e752dfce045861c06b1",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "1dfc1f2fbb19cd23b88132dc5b3e2cc00a47744602ede1bec0e9a49da042b5a6",
+   "image_sha256": "b425170e32f75aea90aa587a5a2eb830e017a7833ab931ff041ad325f17e93da",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "10298f14f94cd573f6b4fb8bfaa65f97e4d97cebc735761952f528e95de88746",
+   "image_sha256": "5cd40feb988158923707396b5c16bdcb58c5b52f32e8f3f1e6870607e3afdac3",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "7106118aa5be21f372e8379d6a6657b23798d556f8105a4dfe8ee5f5035e4b6f",
+   "image_sha256": "78681cd976276eed5938934ecf83eee9ae9685c82e30c15cb2b706ed84b5fb16",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "4bf6d2678297fe58db12b2392204341d73e09b3bf10b7f777b2cd7a7388154a4",
+   "image_sha256": "bfd580688b9715e01d2acdc812ba6c44d020f280996b1e227ddf070d5902c6ac",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "543b6fd7c1cbde4efac88ee1ebc1527761b62f6ed11550bc3126e88e811ddd21",
+   "image_sha256": "2ec948e4d4bcb20a61eec24b4bf8cda89ae8caf5ccfc1d6f313a2f8dbb94cbc3",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "a194dc98d13ad237fd5cc4e235af78679c260a45f571dc73508199de76e770d4",
+   "image_sha256": "2e50bd392a2a053bc76e7696a28c7fc8e4e57bb25d352b0fe06754639ad6ba66",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "6895a08af3c6b0845f4f3de927db89a7eae45069e8bedf1aab49b491b776bf7d",
+   "image_sha256": "4c13ee1df02eba94e762431cdde67ed63d4781c7e19ed1fd4e3e9a82687678f5",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "9ac5e29352b2237e8fef6f4d6e5b8ce63f68ed37f4fa02f3262027fbc89209e4",
+   "image_sha256": "acdaa1cb414630548bb577a6cc731066b8e86aa9926b30e0a7bb4013ed6b170e",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "06ec621abbcc2148fb21f26a3a754dd46854b805f926ea7b3fd38276f86b1c85",
+   "image_sha256": "2ff9c9f14e96babcb800668a638cccdee9387ff01aefa4a302b5feade0a8c3da",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "fd576aa94b82cb151719c62f045124577a6c1e4d7fbf629691b245e5dceba965",
+   "image_sha256": "9ef8c793067b3826a4394d903eb64b3d59c1a078ffa7155c97e6d6d68d08c9c1",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "ee2d45124766e0523e04d5e4640efb189a44018f1caf6d1eb9e66eb3794d76a4",
+   "image_sha256": "2a80494b20a1d040f401110377c265921b0bf4ae7a0c0e2be4c9e18044f92ba1",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "42a18148cc8dd96df321e85d530282ac73cfbc5cfda6b923ee620a45b396d0ec",
+   "image_sha256": "53d265a7bb0c82f22bed8d0edefdbbfff31403fb55b735c128a5799ad5fab2c7",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "fc4c0008f7f7839d59c2df23d13e42e2274ddfb4c2f0204b24097c75f496ecf5",
+   "image_sha256": "e610b6e5dab769de5720f7b160ad36adc8ead9015ff8a0e1772695b6cf46dcf5",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "4d00e07a18cdb466f59eb1dcf0ab876024974e207c149d665c330030e46bd3e8",
+   "image_sha256": "94b2886edb458395246dfad53074da2e3a6371ebb2981fd0e72d50e7fe5afe43",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "03609f98a58e2951f5ffb2027815fb38b90f6e4c50696654e2464f9f77ff4ecd",
+   "image_sha256": "ea1664cc8bd1e9adae5feb13ef98edef97dddf74107f82a467039e7d3afdad97",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "9fecdd8e631d1f38774c3bad90fbc61773106ef7895adaf15812e447b4ecd229",
+   "image_sha256": "b6f5fcb9dae107c999e32992222f3e491fd42941fc5fe2eab134b2b3b2cf6a92",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "9098923851fec6ed071ba45b4324640379f061a31c3a8a91a4f401864de3a000",
+   "image_sha256": "de5132bfcf69975bb9f43bf41d90be2b75717f88dbefefd788174cb70a7e5e7e",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100060,
+   "sim_state_sha256": "5dffacbc16ff4179a6eac50b80bb620a0ac6835db0788c63eb0301bf9ec2f532",
+   "image_sha256": "5a4a430f8144be9709f5085346f34c342522c214255debc45d15c7fd3a581592",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the button on the coffee machine to serve coffee",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,830 @@
+{
+ "task": "TurnOffMicrowave",
+ "env_name": "robocasa_panda_omron/TurnOffMicrowave_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 12,
+  "4,4": 16,
+  "6,9": 10,
+  "7,10": 16
+ },
+ "created": "2026-11-04T21:35:59+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "43c47b97bf0fbfed7385115c87ed0e0fb06b05c598ede55afa91543faf0f6fa2",
+   "image_sha256": "65388117240fff77e4dcec74c038e592f28fe511308f11e5da58dbec3255d731",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "bell_pepper"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "4c4cc5f6007a4745d7ca0e85001a7b78b4ecbbaefdc0156728600e57b7dee915",
+   "image_sha256": "f6e4f472bc6d28ac07cd1be704dd5819c6fd23cc944b0e1ac5d51228975344e9",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "spoon"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "7f00b635386be68625329a517c033bfef3c48413a75dd242c713c07acc1acf88",
+   "image_sha256": "84b569f24efa7b48d3a1941f95beb7710c750096e89c372b47279c2c497d6d0c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "candle"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "731ce3c5920f41d422794b294a60b41ad0004fb4e53ef150642d714ec9dd8247",
+   "image_sha256": "0005495a6cbe8515d5ba46fadcbdea1e676fc23c2a1fd1a90a3e4ed8c5fa8f51",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "apple"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "eebe5e1451d59f8fb2e87957cfad6847b87e967f7d752a6a2c0c5bfca292f95b",
+   "image_sha256": "c49cbf7e5da5417e134d7f114ee352a5cd810affa68fc854b5c62a2cbbc27086",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "soap_dispenser"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "df1c1887abc092ad529f684cca2cda61cba4eb3a8c332d001b9ff127419c4d5d",
+   "image_sha256": "f5518b9dfa486dbb8b9b021a1e5e405ba187f3010c32a9a5406b332fc0ca5208",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "9e48120016f43a20070d6ac9082ba2384c7805999ae61ff0f3fdc903ddaf99c3",
+   "image_sha256": "0b763417ff59861efc5f343dc011b066010ce59bf88071887dc9648b32c89ed6",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "68a83691c4acb1402003a5495aec9b2d3b8ed83dbe2188671e6eb770aa67201c",
+   "image_sha256": "0c647c7c99013f1d427b1562b3ad8630f6a04fdee14b7c170ad9ab280e97b3f5",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "can"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "d07eb49fa08917e963bde5a68f6ed79a85587ff34e4df9c977a424d05785e029",
+   "image_sha256": "d1a4091d5c89d04e06b5c7b4add22b67cb6353ee004367f17f317e79b71a9979",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "water_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "f904575bd145809cbff79fabe8ae1ded719b14168e4e89d5d074b2b57b8f1928",
+   "image_sha256": "b33b777eaabf37c815c6550ad9494fe9c5cce53755e0dee793236bf303db062e",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "1a6439eb68097f8d15387b63916c857eb069135f5696b426bcf0d5820a6329bd",
+   "image_sha256": "96d2f3b2866f4cbfd9b3a96b323a5f351ffae95461b5f660aa671fbca73b4021",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "water_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "e846cb0178428add739b0bff34188a5082155c50317116cfb2461f45d14aa3cb",
+   "image_sha256": "cf784def7c90b1348aeca1f2b21c7ee43a4fc1e49c21338971959eb463ad3cad",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bar_soap"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "e15bc970f2ef5d56482a52d918bc2ce93155f1c4449b45e4cd06bb4aa39d190e",
+   "image_sha256": "5aee4020906f327f4c5e4fc44d58a0dd31e9b62edcd03d1e2b529ff309552065",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "orange"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "d53ecba02ba3d325beb98e2da6c706170ed46773650c61af5e39e9ba74c4e55d",
+   "image_sha256": "4e0e6c4b6e3ae490234c0bb1722e439a78e1412796ed18897b8d79c1482e8d41",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "tray"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "434c5e2d07b3e32f2382dcc8970430847231f93ab349adb353da312214dc2b5c",
+   "image_sha256": "2fad1c62f372de91bed5dd07b830066c8b09a0b382d346f494ad2ad62ac3af54",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "hot_dog"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "72c542ed0d0574bc1ba20114f42552cff1b7122c5bcaa935dd3c8c89b9781f6c",
+   "image_sha256": "d0b949494a10b07b42d769f9efbde8d61786b79ad2a123c4365dc64faead88b7",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "croissant"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "0f9e8bf2d6a095c880f4eacd7e9cacd232b029b3b7adfff5d9fe0239cd90b323",
+   "image_sha256": "4ec942462c5c61f59bc33b262006179df988b808688cb3249c50bdbcfcaf3c4f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "161c7ca38fbe2b7edc240fe576c06bb810a71b9fd29768fdbb10663953dd54cb",
+   "image_sha256": "fdf1f5c4e686d62b55698a13ad3ad0d9c7e067fc0e9dd5cee1161e65cd396522",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "66cba1c1b00dd4f46825f5db64c769737b3e47202245923adeca48400c32cb2c",
+   "image_sha256": "5a70574764971c240047df3ccac5947be55e6893a99c056db0c328c78d346938",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "af839454ab219b2f6206e327988d5d320647cfa1644290aa811aba796a0f6939",
+   "image_sha256": "1cc37b7fd07b2acd12a27ddd93bdbcd4679e07e364eff3353d667ef527a7b7eb",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "chips"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "0125f6d7a1d449a74a369a5a94531d1b62b6ae6942bfe34977fd0caaa5d8b294",
+   "image_sha256": "f6ad83aa38a20cd16f960a9a81377e057a4ed912ad26df91b7354a34d2876e4a",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "donut"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "46f16081c937582107d97879c6352a340ea4eb3e9b7b7945c7e8d031836e9340",
+   "image_sha256": "909177b50ae7e1eaea8d5cc06f9ede5af0c6eb988e03c86725bb5213e032aef2",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "f57d8490fc5663f381ccf907f7706c92455beb2f6f9a6b143d9ba84e17dcd635",
+   "image_sha256": "104f2f7248d639760539e2b0a60e5c14c1091a02a4c1e0bb9676da2d25d11e8a",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "52b2f7e3a8013dc24b367ed9c324aa05d912b30fe5bbfbd83aab36208c91c3b3",
+   "image_sha256": "ea657109a5e0e9f6c9ec754c706be8c15d1aef6aa4f23c21fde8f8396cf9d55c",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bar"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "26583b881fc2dbe7e9ee6edb2b89e659bb1973da01e652201cd594074f0b5851",
+   "image_sha256": "8896ffa8c511a612a19b6bdae14f9a6143ed2e2079ba6aebebbd8cb288b71a7b",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "coffee_cup"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "44f632a9e639f9e30d1d586daa0c630f1c734eae93f7e25ab96d880192f57a25",
+   "image_sha256": "b6c809fc14d52115f22546f499672bf5184698530b662243b3d009253f81bafe",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "bb7f43e814aa2d9fc0115919d45de459d03977ccf0097df8414e8b28d59f19cf",
+   "image_sha256": "f727f6deb0c3aa03d09f6b6f7ba7bb9ad2808587aaef0b802e6a42003a30fd96",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "cup"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "5a7e6b478074d0376698d419f30fb94b6f0c59a6d3638bb5550dbccd8936af86",
+   "image_sha256": "ba76760daa1c96ccb13c6e07710f59b2bcfc6eecda8fc9deeb23110c9774041d",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "croissant"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "71c2d6041031c16a7f2aab38c7dc2eefbfbe84483487bee35de67dfe57067fd8",
+   "image_sha256": "cf484ac806c537ff2bb8af3dfebb689261611a0ad553da7e981ac47d9a4d0d98",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "donut"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "b6e9920d94135cceb657107ba886495b60f739b891a26a1d986f9c340623b050",
+   "image_sha256": "461ef879edec6994700f4f1cf1cef0bce2e21fc0a94d74b93c7f94b4cedaa802",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "7fce6350c71dead2d0532881e307f605c827556955366ba3fc57fbbc420b707d",
+   "image_sha256": "55747566f9217913755bf23aa01996bb7dd20159584c9b921569af36d5e3e470",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "baguette"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "39a542b8fd4134b7fea15e098da547ed9f1cd4baf772395a8fe8280b536c99ed",
+   "image_sha256": "9db722f831ff14bb1d44a27355a6712170930a50bc24e7cb00a0ce6c2e26eb74",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "shaker"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "39d763076276961c3fb6e0c150ff4ca1d62a1ba102a45972822cc859978ae59a",
+   "image_sha256": "1936b6d5088e944ccd73174a697e681c5e2867d0020f9c448674f4a035fea3ba",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "boxed_food"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "40f4f14e717aee3312155fb9ebe8fecdb0b24c0b9415f0dae49f24b2f3b30e04",
+   "image_sha256": "1885e2ffe7f08179bee1fca302fce821836f1b9e08c2824a7199a3788e569dce",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "knife"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "fd8b7b9716c705be5b1dfd4ca5b3928750dc8ca6ec503657a863ee0efccf5c7e",
+   "image_sha256": "e086eaf5f94ff2ebdc20651734462aaa4419a25df215008fb2e25ddb2991d305",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "soap_dispenser"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "288e851b7d88010c99dcafca80b73970f8ab1b16a5604b29cfe93477f2d0bce1",
+   "image_sha256": "1f146cc835c5e2ab7819e0608ce903366bf9cc705631afeb0f857bfdbb11457e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "avocado"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "7a209f0e267977ee0ff7fbb9c27e7878f5ee6fe3454629e61937eef129f31543",
+   "image_sha256": "e06f3e8f08b2caf3ebbee26b59258dcd6417d5ea5338f216e3d6428ff7af81d9",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "pear"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "46b2745ab0afaa25b7ceb97d0d4e9b76bcb45e1a58c5bfda4bf0d25557412964",
+   "image_sha256": "c05b7f3ad722a8b8d62267547fc3a43ee04a72b4cd6bbba828e2879bbff2b60f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "5800b140248b361961519c5cdb114db110b9c50dc1db2c7b86ee2653d8093114",
+   "image_sha256": "386e2b954178700778a6a4328f88d8ab1c9b10d767070f6aa20c44822ef99c60",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bagged_food"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "94bec053cac7651c8ab84f5b0fb49c2862d00d54caebe6750049a4ac327dd81f",
+   "image_sha256": "71fbe970695693f9c83748496f31e502a503e2e2e46317ca7b9ec72e004ac57a",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "bottled_drink"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "4fb340ac3d899482afd0818a96f3968270193ce9590f9fa8d655481d11d08078",
+   "image_sha256": "64c024f82509c62d4a3a269f086bf09e65fe857d77e5d9f7369bc8e8cce491d0",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "mango"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "c3daec578a6901644815febd58efb72b49ab91c18650206f50bd515c096b9ded",
+   "image_sha256": "08d5bd1fe4b0a7bdbdbba86d9257a0ccacf08e8962f3e09495751d6729d41d20",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "spatula"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "92ca7b8852c86f8ffae4231a63c2d9c88824e80c0a5ce69473e4490f6dfca5ce",
+   "image_sha256": "c632b574637def0f82b5ae518442622d2d60f79ed839dce19731954fb88aff08",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "banana"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "f67c1c64f0d3b5e83f6682317c07653674dd7f38c590fb69f539080c2aee6b95",
+   "image_sha256": "557a3f4a3b62efb89098e68cd11232f2e45bb476cfa053ce69956463cc210d8a",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "7680cbcb33e3130c11a645c64f755758c2b59ed9f312088ecb44e73ab19f6e96",
+   "image_sha256": "15d19183102d663bf3b6b1500a2444f8c931a52f3fb6174d300f6ebb312f4835",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "spoon"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "a092a419decfbd2bf40b5a195fec32ceb3545caaf5b4bc619e9cbb58b9b363ec",
+   "image_sha256": "5f089db85f43c41825c02f76b9ec2f2ff5bb4c6c9d104740856e4b18549a45da",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "jug"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "df6b60a41855340a99938c7238e2a5636d8fac3b66c41e98cb8173dd8adb1db2",
+   "image_sha256": "20be057632e5431ab43a9337174eef5bc0571d0d7cf54134b748aca54e1aa046",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "boxed_food"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "ff09d46ae31fee616fea31038eaba2a72024ea3489c095df904facb82fdcd0a7",
+   "image_sha256": "7910c4915ba44cd9e7555ba4a220aee1712047b1204d99484a35c86c51011648",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "sponge"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "4bbca170b29c7ee004c726f71478f6b316f26a503d6cd491b9c457ebe7d80d7a",
+   "image_sha256": "ff66b4053fbcaf8b29db6d2534df28d6c8b13f8a252d8b3a1642772831b30c01",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100060,
+   "sim_state_sha256": "1d542d4080dbff8c57aa875fc033c7d51b1da6f9777b874d7c91a25bccdf6d62",
+   "image_sha256": "4758db4660be0669614f2d5ccb6f64f94b24af2cdfad0c7d1de23e0515714ef5",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "press the stop button on the microwave",
+   "objects": [
+    {
+     "name": "obj_container",
+     "category": "plate"
+    },
+    {
+     "name": "obj",
+     "category": "sweet_potato"
+    }
+   ]
+  }
+ ]
+}

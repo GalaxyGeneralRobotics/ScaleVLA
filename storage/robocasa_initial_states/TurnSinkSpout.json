@@ -1,0 +1,1094 @@
+{
+ "task": "TurnSinkSpout",
+ "env_name": "robocasa_panda_omron/TurnSinkSpout_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 11,
+  "2,2": 11,
+  "4,4": 16,
+  "6,9": 12,
+  "7,10": 14
+ },
+ "created": "2026-11-04T21:39:00+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "b1640562bd5ea3d8f3f95e27bef096d5f82944f4b32a4e67ae0f56448397eb25",
+   "image_sha256": "4a2b2d7ff024b3cf021152156a88a65b24bd29386d4bfcf164ca34b0fc8bd92f",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "can"
+    },
+    {
+     "name": "distr_sink",
+     "category": "jug"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "430b3a4f5aab65d5309fb614ae3b10eba36f42e9a58e8ecc13eda4f0a2eb249a",
+   "image_sha256": "5c570cf8a503558c453962453e17976122f4abd5ddce98594f0d0e47449608ed",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "croissant"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bell_pepper"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "913062d5ccad6fac4efbec172a8d046e98c55f82db654e0ea59ef8a11b9d42ba",
+   "image_sha256": "585b5a1b834377f4b1700a8eb64f6493f97e34c67cf6cbc433369beaae539f03",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "fork"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "apple"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cup"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "d500148f2de7f9f764f07998e4aa2526703840c14c68ee2629a5665f8df84ddc",
+   "image_sha256": "97e0a95efb0cac9013765c1357039c6ccc55df71ef4b9406b5bc6784138ed249",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "pear"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "82a1f08c765792aa97b027c8f5a540014ea28ba643b0b2a3d998f43c1ee3f7e9",
+   "image_sha256": "ac7b39ffef4ad1d07d18354241c6ef2a6c7e0c8218c85939beb0a0047a653bd0",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cupcake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "kiwi"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "f44dbb571cb7404a1eefca1c80f0a890699f240bd3fcfb5116a4dd76c9fdc8a1",
+   "image_sha256": "1e0f51296e94894c6e0aca8ed09c67443390a4c2da406e0277e7c44970a03cee",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_sink",
+     "category": "tangerine"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "ce227e66552f0e9e083a7786e67970e938c1561294adad2dbad7de40c1491923",
+   "image_sha256": "d3e5210c579b4bb69c1c2d55743adb7c9cef9a751c4acaf2fbe0102de0665489",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "spatula"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "boxed_drink"
+    },
+    {
+     "name": "distr_sink",
+     "category": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "02ccdf872333eac5ff018107e882dcba6ac2e1a9d7f2d01e50c8fc0ef8e94242",
+   "image_sha256": "4fd0153b4fc946382b7835e83e2d476c0ee39d84cee10ca1b0148e86ff9609ab",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "wine"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "mango"
+    },
+    {
+     "name": "distr_sink",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "60ad9aca028e9fc30b9d419a7e95260e6b6a9702772e1bff9c56f24e0dba6520",
+   "image_sha256": "8d4b87a5a032f55db800ea370fd046d3f1ad584d0e0676ee0903ca2efb458b24",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "yogurt"
+    },
+    {
+     "name": "distr_sink",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "e1474b278fd8beda23b9adcf7f2f6ee5620e2669eb2b7be1aa72f004484a1c0c",
+   "image_sha256": "d1a48fabcb9e922d048ba5f98b0e83949abdb6ec1f595db3cbaaa8554b0bfe85",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "chips"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bowl"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "848c6173e5fb0bc0096e3e604db667ae7055a4db55641fdd57c4a9fa0e8d0664",
+   "image_sha256": "ffab310d639708cea2062407ed21377859e787c7b229d0bf82abc76031069d54",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_sink",
+     "category": "tray"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "949ba3465bb1f5abcd3972dccf9ef94c383e6e00d180f45373ccdd1972cc4b7e",
+   "image_sha256": "eb071a6059523d18b459156ebbb10274666a4910b986d72aecd7abed07f7feb8",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "jam"
+    },
+    {
+     "name": "distr_sink",
+     "category": "scissors"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "e474d088e94fc5c59807924c6ed9d0c81457fe6f26c56d55ad6b8d40e157cb47",
+   "image_sha256": "efb22935ae80cd082060bfbb126f12eb8c6a3d6afc7153ff8cd167b0043a4701",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "scissors"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "onion"
+    },
+    {
+     "name": "distr_sink",
+     "category": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "4655722bdb695234e11fee864f7cc5cc7f9263af5a715ea32a2137798fe9c14c",
+   "image_sha256": "d5247cee6a260cbb5ae81aced25883ee2c801f8760388269d08879999c3977f0",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "chips"
+    },
+    {
+     "name": "distr_sink",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "3881b28ef11c30fd1bec56af57c8fe568fe45467171189869c4b43ad0c353366",
+   "image_sha256": "a828339ed192a9734def3f4cf185e81f2d26e364229c599d733e67f07d04b998",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_sink",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "08f2ed0aa5c4dc0bd29dc32adcc93fd36d8e2db802adab2cfdd3de9ce45900cc",
+   "image_sha256": "b5264fd3f048c91d41375c78895a0360fbc0de21a0cd73a7d73ca2d5ca8e411d",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "waffle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "5494d9b0df04e4cdcd1348f706bab892443f39340a3a88d222f40c97d2285639",
+   "image_sha256": "e1d0f625da5875bc9b390c1e9a0a57c83604109f494c831054c9ca2285890231",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "chocolate"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "spray"
+    },
+    {
+     "name": "distr_sink",
+     "category": "avocado"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "b04cb3e5d25ff3b4b6b5648f920aade035efe7f0c08f16423eb98734bb8b79b5",
+   "image_sha256": "444980b4baaacaee7b0450ed1f87839da7023f2375d116e22eca2e71fc3fab9b",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "jam"
+    },
+    {
+     "name": "distr_sink",
+     "category": "scissors"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "d5b443ab23ad5b3fb3099b48d861ea43bdb3fdfa605fc17a1331b03d17fb2134",
+   "image_sha256": "356e14370a02b718b358c9a7f273ec7d155661dc7a3ebb4379de6ba986148dc8",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "lime"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "onion"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "da1e307b4ddc1b16a974fa00ccbcc39f984cf1c0655f5596426efbc1776f531b",
+   "image_sha256": "f43d317cfb2ddb8dcdbebdfb6849dad0e7ecf43b6daf18f06189d97f7d463bf3",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cake"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spatula"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "e11b529c41476fddda2756b8fff3bc02bd300763060f78b440875fcf708fb209",
+   "image_sha256": "32d892e644686696d1e064006237fb61063c0f4fa1e4121a478e92fe6e39425c",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bagel"
+    },
+    {
+     "name": "distr_sink",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "a00adc44c807ac372af5611a3c702e469abd3d10adb8183133a22f412df54f1a",
+   "image_sha256": "0d65bda4ca8372de05f3a95853f642ca2d9d375a5e4c89962e85b1d734a19246",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_sink",
+     "category": "soap_dispenser"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "bdb0fa858ecb4072deb33a6ab2506ce16e406d4399c9bf5b8c582cc6613bf4d6",
+   "image_sha256": "e49416517a73a495a1f5f59e2ab0d77c7edb5c54a7aefba0a5f2dde02f51fc93",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "scissors"
+    },
+    {
+     "name": "distr_sink",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "0a6431448794c3af62e3e8bfee41ebb1827165715a244538bf9a5f12f6d85f9a",
+   "image_sha256": "4c80fe63f0262ddf703afee6f59b9362225b3cb9152f276dda33d9038ed3759b",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "kettle_non_electric"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_sink",
+     "category": "avocado"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "39dbf00e9ef9102be212078c087aaf9889164a5a6daef7cc62b8c276c1e73818",
+   "image_sha256": "c8540d56859893735d1acfeed3b4bf8c95ad41028f9757039d74a9eec6c0a84f",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "3cd558d934434801e391e9c3b64995b3e0bb752996280c804decb1bc350353b3",
+   "image_sha256": "3b2d312f85530f5d716e66c0930d1b78dfc9b94655bd72e27d17bcc517171d08",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bread"
+    },
+    {
+     "name": "distr_sink",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "ed23079879c25b45ea5b9b86ffbec11cc7218eebaaba72adb78f3092e4b4f270",
+   "image_sha256": "c100b84bb9a912217a5d5b0b69ccfd4149422e8d306e9d50e5248b830f28f8c6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_sink",
+     "category": "condiment_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "ef85c3d9a84be94f2de5d3bc4126463414fe5ea22a1b0f0701616cd6047dddce",
+   "image_sha256": "2be85540810d4415e9354d70127b572fe1e89a97ed37f95da954d948722701d3",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "distr_sink",
+     "category": "tomato"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "9f503a9952397f0814fef8deef20c2c3a041de10c6976762099643422943cbd3",
+   "image_sha256": "b9ee27018a04602cba10adc17a20bc032f819baec837dc2ae79657929be52eb2",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "wine"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cup"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "541ec7a91781e1f7c40ca1949e0e679e0280701dee16ee7485225bdb230b2a31",
+   "image_sha256": "08b78c6207b57888e423ff3fe1f2035c20ae35478e65ac80de6289d43d7faf88",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "spray"
+    },
+    {
+     "name": "distr_sink",
+     "category": "jam"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "322c6638482d3fd7bd6391a99bfe428282cf0088d21021bf3e335bae8299b9d3",
+   "image_sha256": "fbbb647c5fb3e2bd5ecd4b68dea67518a89337a16a59fa188f29b12bb31f341f",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "fish"
+    },
+    {
+     "name": "distr_sink",
+     "category": "garlic"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "249624fdea6851a5d2ecb94bbbd2514ca5e121933a77f5dbc000aa528b6fab32",
+   "image_sha256": "ba1e7fd581eebbb7af9d6c68e2e8b2d2e8281654d161ebd195360cbddff91e57",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "condiment_bottle"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "69de8038212179bb8f2e42eb77737a5c3687dfc04bd79f3c733acd7513e952b2",
+   "image_sha256": "0d7744e6aa4ccf4fe203c81accf69bc4bbc9bd4083665bc563c09cacfd6c52b5",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fork"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spatula"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "552dccf02a6ad569c3b84ba772f25831af7b5f2baafe51263d4e3b1ebeaee027",
+   "image_sha256": "7dc9cce0c97e4e92b55b3cc78bb7ce8fb7d7c49fd6454bccc75a67b94fc732af",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "lime"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "pear"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bottled_drink"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "ce6ca494e520a85b37a0b34b1ba0a2c1089000af312f216c60963b601f40a163",
+   "image_sha256": "0d02e7d930b95b652e25bf619c69cc2089d746f4830fb6c48a48954b5faba0ee",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "jug"
+    },
+    {
+     "name": "distr_sink",
+     "category": "bar_soap"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "5e5fa7341436fa98e9b2079fd02060cd7cb734e8193279171518978f110cc59e",
+   "image_sha256": "f198d26c95c11672b696e4712f3ef2a01f644e1bb8881206ff26ef377c316163",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "teapot"
+    },
+    {
+     "name": "distr_sink",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "68136ae3666507a1c3bb396bead27d21cb0b7afb9f67bf9d653162809da6dd68",
+   "image_sha256": "2443621b5759a219425b51ec24818ce9b848bae3f3382d96f60b335928ab0bb3",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "lime"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "4e0b73e2efac191291c97218f8f0f5e36d9cf9922cc153abda33f8229ecadd12",
+   "image_sha256": "f8d21e4760c09534bcc3642538c5764de4a156c95a2b98f2817f9f16d7644b4f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "tangerine"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "onion"
+    },
+    {
+     "name": "distr_sink",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "f5bf6bdc3d86f10f06f8be9de055c6a3662dc4775dafd482229471b3e14617b3",
+   "image_sha256": "9b928d52d1df5b33fc184923439cb18d7fede54b9702d4ffc34644e618ae4508",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "condiment_bottle"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "chips"
+    },
+    {
+     "name": "distr_sink",
+     "category": "eggplant"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "34670258b39fea23513f84f033864ef419447f3662216399e464d6957da1d3c1",
+   "image_sha256": "d2a6ce861dfc5e423211d2e98f77785327465caf83f7b3abea3748e1fcb065fe",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "pear"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "steak"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cutting_board"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "b5adba603f11cc1057950bec7bf83705ef0287a90fd9ec23ce26559500e2f0b7",
+   "image_sha256": "fdb608af01af874756960a970fba38ac347e9a25bea2142f25042ddf0978d85e",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "squash"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fork"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cutting_board"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "ed5ea01e85cddd3df15f55eefa4ec5d2c6185b09dd7fced9f0338b1780d1d0c7",
+   "image_sha256": "930e6d79595c80b800573f77a9232aee4103840a7041dd4aa6c5b535587e2c27",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_sink",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "1ab7b5159bca6a722768abc173ae977c27af9a97ee0384eac0712ea4d937da5f",
+   "image_sha256": "95c2815d92ad3eb0b2952a586e7de801a3be8589222e8903298ea4078f015e92",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_sink",
+     "category": "condiment_bottle"
+    }
+   ]
+  },
+  {
+   "id": 100043,
+   "sim_state_sha256": "7b590ddd4c4661c2d65450d841cde65a40e7254e51adc47e362094b0aad59495",
+   "image_sha256": "b297766d376b0a675ef5fcffa6d7cc8f1768c35952a6aadd921ae397cc15efb9",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "donut"
+    },
+    {
+     "name": "distr_sink",
+     "category": "beer"
+    }
+   ]
+  },
+  {
+   "id": 100046,
+   "sim_state_sha256": "dcea37e545be6599e6e457f4fcb6cb90f5a18793b7a8ee7e5038edce5b4700fc",
+   "image_sha256": "c4730dcc1715a0fba6647d7cf4ee316dcee1464f147c569cf94356b98d3ea989",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bagel"
+    },
+    {
+     "name": "distr_sink",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "8940dc6f8dedbdcf4c00910d1d87799e58bf4535458d24f81a2082e471f0ce83",
+   "image_sha256": "f6997ddb4565cbf9496a59ee2c58049aed9a369183ec42e0718a866414883a95",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cupcake"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cup"
+    }
+   ]
+  },
+  {
+   "id": 100048,
+   "sim_state_sha256": "bba6477d96d1b2d0ee3e86c4d78941688b8f87d10de945d042c7674bde25e1b1",
+   "image_sha256": "c1c676a969515fdb606aadad0032e8bc7930f43ba4a0ba8c58c139ade6c3120b",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn the sink spout to the left",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "water_bottle"
+    },
+    {
+     "name": "distr_sink",
+     "category": "spray"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "0629b562711d3142ad3554dd5e81973735fd3304c2cc604b46f9bcbd250b12f4",
+   "image_sha256": "1cbd873a071457cd826f21ad8ee845b90fca8399904abdd7a30467430ebc1737",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "mushroom"
+    },
+    {
+     "name": "distr_sink",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "9d2fb709ecede0c624c01d0f1b119d982f5e7784c55128013582470b4814ec47",
+   "image_sha256": "00a2c2f2c031c19b433dc367194da8971f26f4ff0f61a026dc0b0c257b469a24",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "ketchup"
+    },
+    {
+     "name": "distr_sink",
+     "category": "carrot"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "0835884d133c5e4b5cb40a3e59fb24e5e46c5833a9f21b0ad04fcd1101c48f9c",
+   "image_sha256": "04c680ff8e707e0a69873a508af701c46641f83f308e1f7d19c0862496769bae",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn the sink spout to the right",
+   "objects": [
+    {
+     "name": "distr_counter_0",
+     "category": "spatula"
+    },
+    {
+     "name": "distr_sink",
+     "category": "cheese"
+    }
+   ]
+  }
+ ]
+}

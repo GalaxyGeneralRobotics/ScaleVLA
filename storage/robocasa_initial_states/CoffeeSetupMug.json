@@ -1,0 +1,742 @@
+{
+ "task": "CoffeeSetupMug",
+ "env_name": "robocasa_panda_omron/CoffeeSetupMug_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 96,
+ "scanned_per_scene": {
+  "1,1": 13,
+  "2,2": 21,
+  "4,4": 17,
+  "6,9": 19,
+  "7,10": 26
+ },
+ "created": "2026-11-04T21:28:39+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "559c28108299a9d85ea022f092bd36c9bc0618a10c985c08efcc0e87c97d858e",
+   "image_sha256": "b8b2b0cda11cb9d11ff7c233dc35f342266b96711188134034274ec5a9cca5a6",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "1fdee36783c3a2661e8f93e42f5d2e617da423e6cf2cfff44eeb0c5d9a6416cc",
+   "image_sha256": "05e0505a2fe74e9f55e4ed4e89ab63e7e5db29d19b1c8bfab53c96f7f0421ba7",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "75b08e4f4a8e545bf5ad85ea4b4ef0f83f1f70f161039be5b16b4123f5cdaf0a",
+   "image_sha256": "3420c654ae2811e83aac6c25802eec4554665919e4a8cc4578181b692a6f9f15",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "2ea14ffc363ae2136b8529680a08978c3a664249e6f4151fde65e63e4182ddbf",
+   "image_sha256": "2150eb7e8d4cdc97303c185958ec9de71b452b37d25628425cdca2249920e47d",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "00b931ab1de19068dafaa216751530e9207519b96f086da6edbe9d2b654e66bf",
+   "image_sha256": "51a3642ef66c8fb9435b4deebf1b1c13d0ada16bfc9cf554a0c5abc52b8b3ea5",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "4c6c64124d4920f845d6738a6d2a8f3144751b29a33758852c36e9cf53a1c5fc",
+   "image_sha256": "1787c0e289fdc086cc060d0dfe65bd44036ed72a9bb09987f0b35d01345978ff",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "4e5a006f496b7b626531e0c7723c67c866413a71dbf582f4a4747976e73f6fcb",
+   "image_sha256": "9b8e17f5743c864c98c4a6abfc26bda9a298165e43be0afeb08612f6f76e5e0f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "c2dc141bc48e5942a60ec9e7ceccf2c9c4af7a326af11a0cb2712349dd4f3b60",
+   "image_sha256": "cb94cfa86052e96335a8876d064f20eba06ad7a980b1f847c2713576365c1522",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "45394fea1356583e6e5ef605a30a79b7dfbab9e607cb0c9979cf2bd9672c962e",
+   "image_sha256": "72055e1ae3207ff8284db9efe127601bb7353f6ec950b83bf4094b3115b58321",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "2a426f552c0218c3be8e1850722aefd4228f4d95863befa3b614ab60346cc43c",
+   "image_sha256": "61d82a275e30a79ef279ffd635a24b296557978463cd02a941cd48e6b4a10fd4",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "487ff294f97d6321ef7846d01e8253035ce2e2ea361f0da91fa22a7c8d3f14b8",
+   "image_sha256": "f7303ca2c4be9c203204e31591697d50e0f33b9987c0cb58a63f8389f6de9852",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "0a58efb5121c16182366bf48db3ba91ad90739548a0409914d129664db3b07d1",
+   "image_sha256": "645735f7bd334af920566fb5dfc8671ffc37e9cb8c260a8fa36b28287452bc4e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "4ed1f904725e3437e6f91de19c08fbe511f6cb4595638fbf07cf212572df9c23",
+   "image_sha256": "5eac60522a4fe0d0e71abffbc47ed10f9100aadd1453c0c60124ffb006706738",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "b9d58a45b7325ba9b2fd8da4a60aca741922e0d37753d76b63f082c612a4b663",
+   "image_sha256": "f2a7913be7aaeaf625bf16075c5010cf02115a7b624ba551363e611fe13e44f1",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "db97bf4b471f45551b5cdb6fb02312738a4b0c06ed6afd253561df3a02544dc9",
+   "image_sha256": "cd29d88ace05988d4691838794aa7c852548a1b7b5590add908e8c1ebe98310d",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "9b51c682eab1bb4851053e09ac7c14dbaf195e00863182ec849f13505776efc8",
+   "image_sha256": "fdf2cc3ee8388f63113f317fb02e5723d1f62dad4f99298d11d75bd95796c36b",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "56ade5c86af66f56823bb041fc313245161bde5edceb547edf64b237d5e36009",
+   "image_sha256": "b2e75f3a5b02d2d47ca19ca6217a2f3d827094df2c6768aef0c404ce07ae2d93",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "308db72886796546d50400ddc527e1a11b9404d719cb24e71391f689cd6995e6",
+   "image_sha256": "affebe1cc400817fa9febc9c320f25f680d82dd369163c0b0af328b519b19ef6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "7f6326ec7922d8617e57a26670a292a084bdf3615bb0579d04a95f18933e424a",
+   "image_sha256": "e45e7270463883c3df81e2a4092fa030178578730ae1549fd447a7b87cb09b1f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "e4ef4e8662dfbace8d8780c35cfda89f015f4bc3caee9161ffba0d4f2707246c",
+   "image_sha256": "5d1ebb2c9a0c4e0f61434fbf5ef2323af0aa916a8cb6565caa41e63f9ae6fed3",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "b9ab3fba713edfa1b1db35137a005378e78d6cbe27cbf0686d8a4e2185563bac",
+   "image_sha256": "46c6582f8ae6a51afc9195484e709de36602e7e86084e184127a8085af352aa9",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "15c50a9ebfa8f0905d9c4e14caccf9d7335bdffb9639234853c5004639649b2d",
+   "image_sha256": "fc3441ba636a5ca7b830fbf86a845881f8301d2404c1dd9e1c3127bff81b2a89",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "6a059cadb63942002860f4ea63de9ce9e78ef2abda38fad1739909df18ec87be",
+   "image_sha256": "c0f987c1c6912b2edab7c9d9ed3b1081b7df75495a0ca1425e93bc4866c03346",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "54c361095564afd6bda1c7c41d65fd2e90bc8250aea063e4c8099aeef80769a5",
+   "image_sha256": "aa65d104b906fbba9e57400fa77cd4f8891ade6bbb4144f3440ff4f1adae89a6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "dd819e7be667bd2b7c3ae669076486983e6b9424cbb547e576bff5c5408d9d81",
+   "image_sha256": "41e7d24b7e00e01961503c8e952e97d3c5793e0112009a2d007b14c802865674",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "353862eb59c56d67bc0cf09eec3726e55a6b2d6e9c1d64264f009cd3a2f1088b",
+   "image_sha256": "cab1376d6f3889448cc0951677669b4a8ac2b9fb4219a8230283e823ac2ab495",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "21a518ebefbbedee129b6ef4cd449cd33a350a14ca61f3c7e67d08b10e6895f2",
+   "image_sha256": "f498b63ba819d21537a32cd14b2e48fd89751f02d6c08537b9faa04007ec4784",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "f20646bfbacaf468016dba646c2cd8b8858c018afae77493bb8626ff5f6f1814",
+   "image_sha256": "778e5559d5813e6b76151c8cd024a1d89f4d2dece265c6c623dc02eaf2bb1583",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "47b44fc18c58bfdb63a47426a88713ca7c85418f052eaa2e7d2978199787b74d",
+   "image_sha256": "9a7deae2cf5150978699bd771e38622e0a16374f97abb364c27ce4d6e2041a5d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "01e2efd003eedeeae658eb93ecc3d58d1f12e4834d3f7bd853c0ded1456623f8",
+   "image_sha256": "ec965d0b0ff5f5f2f0c60d60928f6f4885d181610ce60ed884275e98ec1b98a5",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "20f334e4e6dbaba83137401e659c665bd7e45ec2895d334c14daa8aa84698f6b",
+   "image_sha256": "439675177f18ef97259aa692fb8a98dddb3fceb15e869ef1c4e2a1b997459ecb",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "4736a208f16c5abe5c557fd2a7e646d1cf3b919641024f2f2c02a8529d58deee",
+   "image_sha256": "746b6ed7e4f1f7a00201fe35298a2b6d7f607455743ab94e8a33c85575be477d",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "9f4237ea89d5c647cd76abc273a10b0e7c35eff2e70dfd5f3c734d3ee03a912b",
+   "image_sha256": "62c73db065af025f435dbeabe08853a0c45d0548a6afa001ee05723d24cf82a3",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "951ecb7d24578a3a1db9a0e6d7a1de7ce3f1f087958415cedcf9e19e5c2b35ac",
+   "image_sha256": "f7df06caf2bade0917a609e0d7b38398e48930affca89b92fa4e45be76f63cb2",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "1de02236ec2c7b0ef8469f3b5f571638d57491c724335a5efab810c7c4148517",
+   "image_sha256": "be3d85138849e14e3aeb6e30ad98e1f1000cc39af678f2bf2ef9af21555d24b2",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "44e0c9f634811498dd66e3fe625bbfd721956c646b2fceeadc1d7c9ec9ee44a9",
+   "image_sha256": "4025a53d22af792effeb386ec13a516e1ba63c4a5555a90623dd9e235d1c205e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "283610dd5e720d8ae970b1d1429c06aff58a896cbad8033e39b7e8bebec8cca3",
+   "image_sha256": "173cf428a3911c66ffbb730709c6a31240c602edefc7e8dca5d16e2501cd07bf",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "641578f963999e7080f1116cfc26909ee4b43ec3bdaeafe7c41fe6cb65d81700",
+   "image_sha256": "461d122ce762487d8b27f608853dc099f5a1e609cbd1c368dc2f8c43dee2c780",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "4faa2a9c23a79e0758e0111bc4404ba0df127f1b23f4ff6209c23f5b4cb3bb3d",
+   "image_sha256": "08dc2fd29644f1c753e4aa7ded28260a7ba5415fcdc548ed5d1172a1c6147983",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "051f800a1d1429dde18b869edee6dac852570d3658560fc10bd74178d858580d",
+   "image_sha256": "4e5ab3aa0acf21ca5ece257d15824621a1807d159cd7c76774988320098d97a3",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "60750b88341f4b89cbfad999c11f1f3b9d7cf8b4d498d91c88fb47f8d0cef7ee",
+   "image_sha256": "074513d586772209a87f4cf8072638ef90b59d960b86903c4bc158983748ef7e",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "8a5ccb2001843988d7d4a269391a5ed4b3eec882f13b22b4d0ad08b5209bb4de",
+   "image_sha256": "3d91245ab9e402662ad1f9c7a28af4ce4cb97a1922e7001f0adbe094cba6347c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100045,
+   "sim_state_sha256": "dd974cc1ac102a451d0346c6c1ac096492fd7d29f7b266dca575623c2620fd63",
+   "image_sha256": "03564e32c4fe2015dfa4c34e9037b99bc5b4eb01d359ccc6efaa43a15ee2ab61",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "d3fd02538d295dff1221ea69ef48fc36806b8d8732350786b4dc79dfb0abcdb3",
+   "image_sha256": "24dfd8e1f7bb798dfce9b8b70fd4d613107df83c91988626c811260ee7a3c047",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "20219395cfed6b4e164e20f837ef9240f5cb58f69f125bbc474121ca3e50418e",
+   "image_sha256": "c9f6090d4559da5eab85e28c187c306133351a069b95d106c7dbe1b166c732d0",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "41784c80b2b7b7134545f50887adccbd1f932d95a7a8ffd81589c59055336ba9",
+   "image_sha256": "32e52e4d093f9d8458724e6c794b993a8c25976c8fbe674832c0d2282ab1027a",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "b6599bca2da0cf0ce373f6138119827e55c90cf4908b660acb0382e38ac3e034",
+   "image_sha256": "5ee0cc4d2fd6f7bdc84ed145f0b587a610961668d9a36757952e25759cf8f77e",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "6ecff47182cd9dde59a077c237b6a2869eb4d7f251c1b06d60ab15c60e503e8a",
+   "image_sha256": "f70f78412d72d91c7918ab5849ca884d069cbb438d2eded27a3565b1a14573e3",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "2bcdd0237354a4cb45fb3633fa64819c6314a47b7772dc40976b44bcd385c995",
+   "image_sha256": "f11d952a5cd89b635b0964269f51f125a0f8ceafa4cce80bf129d5f1ace32024",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100066,
+   "sim_state_sha256": "f02a1dc63eb15c6872abc1996a8ff2f567170f5d6eaa9f304940af2c83b5a560",
+   "image_sha256": "1febd069973302dc2976f706d58035954ab36af2a07113354f5bc999a28ec4b0",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "pick the mug from the counter and place it under the coffee machine dispenser",
+   "objects": [
+    {
+     "name": "obj",
+     "category": "mug"
+    }
+   ]
+  }
+ ]
+}

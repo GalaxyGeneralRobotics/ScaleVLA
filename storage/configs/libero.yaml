@@ -1,0 +1,21 @@
+# LIBERO: one policy per suite (libero_spatial, libero_object, libero_goal, libero_10).
+#
+#   torchrun --nproc_per_node 4 -m scripts.train storage/configs/libero.yaml \
+#       --data.samples <suite samples> --data.cache <suite cache> --run.output_dir <run>
+#
+# Add --data.demos_per_task N to train on N demonstrations per task; normalization statistics come from the full suite.
+data:
+  horizon: 16
+  workers: 16
+model:
+  rank: 1024
+optim:
+  lr: 1.0e-4
+  wd: 1.0e-5
+  lr_schedule: cosine
+  warmup_ratio: 0.05
+run:
+  steps: 5000
+  gbs: 640
+  seed: 42
+  save: 1000,2000,3000,5000

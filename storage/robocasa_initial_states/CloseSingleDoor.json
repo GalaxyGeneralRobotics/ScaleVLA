@@ -1,0 +1,1158 @@
+{
+ "task": "CloseSingleDoor",
+ "env_name": "robocasa_panda_omron/CloseSingleDoor_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 12,
+  "4,4": 16,
+  "6,9": 12,
+  "7,10": 14
+ },
+ "created": "2026-11-04T21:25:48+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "da4a388d2f3e4bf7415b3e3e0cfa31e3d66d59b5e3543f556162779ba4e9debd",
+   "image_sha256": "6996a6fbfed0329b0b88f80bc0c3cdcbc6bd0f6d151eee3bba454a987070f85c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "chocolate"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "3c12d2d79d4c3f168346bb5160a570c9296c5494e84b3d5fd8a55b6514155981",
+   "image_sha256": "ae4ea58a9cfc2db113be36244ac5eaf5493e397ac43336801bc275ae1bada510",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bowl"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "spatula"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "b58db158f13d174b36cb73453ce414a9ab153b061ba67109796513b208930927",
+   "image_sha256": "e2d70790375178bf2c14cdd43250b6eca9c4b273d7ccc0995eae1e04588279b5",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cucumber"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cupcake"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "131d7f990c236f89a24453fc50a12538c8b36d43852256ac2bc01133ab3a8aeb",
+   "image_sha256": "e77f3f112d707fc1900532dcc580d07e1b4b5effcbe659da95972d1467ffd4f5",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "coffee_cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "kettle_electric"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "b94dcbc5e907ed06f679bee80958d992e726289bb9ba2b364b23d815fafbadb2",
+   "image_sha256": "e3184770c17604548658b2b8df47c420e9f08f77a62a09b5a54d7b11b9efc21c",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "soap_dispenser"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "canned_food"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "7460208460dc7bc93bb27ffd82291e7508a14bbf179d9cad971091f3a4d02950",
+   "image_sha256": "abb1c07116cb045e1d852024bc85d6d6bcbbd4b2a9ed885e735bf2c9b71c50d8",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "fork"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "43b96edb8ca4fc921db56ffe06a791875c453845fd51144a100fda2f30b0aa95",
+   "image_sha256": "22da75e9255e082d405cc4934d7c2d2ed5722362f59b5f91496433192194031f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "potato"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "peach"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "spatula"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "5582ff25a402648f131f4d55e61e9f31d04e552743e1c21e2c4b506df2e8eda6",
+   "image_sha256": "8339e1c3d88f7ae170525d6319e2189a88bbd84e79f7df521fe4bad7054a9524",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "onion"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "scissors"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "13ca85c94ca7e12993383dafbdb13891ed9279377ca7ebb3fe7b79e8b8ba7227",
+   "image_sha256": "fb0e438b5cb13ae700d6e9e7e23dd1c0947e5bf53268e63f2270849459455b7d",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bottled_drink"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "onion"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "kettle_non_electric"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "kettle_electric"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "a57a1c3f320e4fe15a9447efa2ef7c91ba6a7a741d39829bd93d4db125208886",
+   "image_sha256": "e8c4ccca792982efef8860b9c9ffd57c7611c434c68b8a21887bf7e159fc9de6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "boxed_food"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "chips"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bottled_drink"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "7a5125a06d2d76eceb150c3426d00a421daf02af65661f53e090020fc50928c5",
+   "image_sha256": "1a88c1be45bca457433649befabea1f193e5783b8f00ac255d437ea87cae7782",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cup"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cupcake"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "onion"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "e9c521876004ee14a1217487051fd0e2d80eba4a106a787c743729344e642819",
+   "image_sha256": "ea6a00201104ea6722e854039de9f529ecce8401d4da00a3eab58c67ad196aba",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "apple"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "sponge"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "bar_soap"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "c25b4d55ff8ab57b3eb7d23fb6c65a2ab4964fb2b0273424576952a0807988a8",
+   "image_sha256": "9248ca15c8ce96dd503cd266e46b523d27bbd239a195346eceeb03ed5edef3c8",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "951be93285bcfe98ac4657cae9a29c3b47788893835504edda1f156c97377b40",
+   "image_sha256": "494e675d860635050680501fd85d4dc03e81be3bd38399f043ce8892b32cbd1c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "steak"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "yogurt"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "pot"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "bowl"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "74b0e24d74c78c82e2615f3769f9159ecfb41875f345ee48e8cbc8dcd77f10f2",
+   "image_sha256": "d4357352eac0845d19ca36a871a8727c06953b76642f46c79484669bdcbf8421",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "potato"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "peach"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bagged_food"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "tangerine"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "2123ad710b8eee8522139df070e868548d838a3ead79d4ae658a3d670d10d97e",
+   "image_sha256": "954d1ba2c91b63b21da5ec8d5e140b401fe97658eef4cf83b4c8d5274eab32fa",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "waffle"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "ed396afaf855df2a6eb927a92e4da2015fbc8e2903db0ec9a0dc19b29827d63a",
+   "image_sha256": "a8a75c4d64bba47c1ae8231ccda6f3f563a854503618fea894f0a06f2c6ee30b",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "sweet_potato"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "egg"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "avocado"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "beer"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "94b4a500dedbc2e7f66f6ae7534d7e7ae7e107d79e351e84b5289c563f79cecf",
+   "image_sha256": "62b9242d024738cbce45da7784d67d25d5e3340c1978eabbf6d62a4b5b329e62",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tray"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "8f7070f56a89aea9f95decaff66f52eb7721687f6b682505d0eacc32ee8a4c2f",
+   "image_sha256": "6ba51b1678a2b967f7e07067a6153ed9c05f341083c125e53c8f4ac173adb41b",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "shaker"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "ladle"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "17c81dc1df4b7668645df0aa0c8ce35d98606711fb90de8157360e8b9a7355bd",
+   "image_sha256": "935ca8b4f5016c0ab8a9177c917d36ee9a6574dcd3e1b1673688b13318326a73",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "fish"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tomato"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "7842cd42a620a578e867c8b00b9c12812397250aa9e9a429f2d428ca31a8e8ca",
+   "image_sha256": "883b839ea009c10465afa61ef5780ab484152c41cbb68c633946f4a4eaa189d1",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bowl"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "peach"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "boxed_drink"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "5d3462887cc336c1d4e77225122028665b9894ba9efa080f1181ab76714f662b",
+   "image_sha256": "9c42b62dce2f37041096d7eb2f02454331647594f7a91a70d22a453e94434d2f",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "coffee_cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bar_soap"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "teapot"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "d10fe16a94601fd2effc9911a8eb7a589b00921bcc54032757213c64896d0852",
+   "image_sha256": "3c11ea6904f9922a61b58fd470bc886aa91d8f164f991ddc359b7147096468f3",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "06b3e4b2dfdaed5bcda9fc35ea84af4ad8e5cf27981f58d44ec9d93d82d9446a",
+   "image_sha256": "be3e46207cd4a3c47b2400dff8020f3d9782dfb32d149fa688800c48bf559858",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "garlic"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "cupcake"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "73bd0d3acbc9769347c75bcbdffc262eeb1bb52858921c6bea92a6ecce46e92d",
+   "image_sha256": "6bd8fcea7648411b2042d695cb2189a0f24d3e971c6b25a65ec6471b8748a147",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "fish"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fish"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "e3aef42d76ce7af59e6196d2cd43f7c76336befacb51b97d9cbc448252c90c28",
+   "image_sha256": "7da977f120a728180c848a269e3e0a57ce75f8eaecd5b02f9a311e0ce8d69c67",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bread"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cake"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "c76b937fa2edb6c9439dd5b10e741f947c946566c66f929eae36fd01b92f0c38",
+   "image_sha256": "703278c72e477bcb90187dccdfd6f6aa4fd9133421e58e4c5455795effe811b6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "potato"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "can"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "plate"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "17907b89deee8403e9ec4b3dbdf6b5ed42fd9a985fed2ecc1821563f2f245f58",
+   "image_sha256": "d210bffaa5d460990ec8a536b1f2f52efe92cd97ea2d8cda41a96fb53bdbba94",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cheese"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "mug"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "c8dbecbd147916fb29b233ce79417ba61b4af1c3fa0fb7d2458d770431a3e42b",
+   "image_sha256": "8594f6c3d0ff68e9f504b492c69c7ade77c7a4c25847609cd892cf7fdb97a55e",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "cereal"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "corn"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "f7b6a0a108e4f87c05628abe347b4e14296f69b6879b2e15fb926648463569f2",
+   "image_sha256": "b5b0e6e190241b0ecb13b93f2b235f7225339526004a203693beeff3857653df",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "onion"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "wine"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "24cee009b7d8f954e43ac527c8d95c1e2afbe38976565146831b386a21aa7c48",
+   "image_sha256": "d4f380120baf72bbad6c78ade209986c51c34fa7e0844a36cc9c9fcea9bd0658",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "milk"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "e350b3037f39738d66000de5a7038dc44a10d0c97e71e04715e73b10762bf883",
+   "image_sha256": "a630abd4548aca20d1543b83eddf08be12dc904d4c23663d58930fcc8ee194e5",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "lemon"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "plate"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "steak"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "36cdcc0e546c4b66a7c796182ab346d3703c42024cb1c98b1a63b625f4f58b2e",
+   "image_sha256": "91cd0eba6cdc2ec08bd032bed0cde0d5f51f02d603810b13f88e1b1855f7537f",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "lime"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "wine"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "mango"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "chocolate"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "efc6c810bcfb722f893948921e9ef9ab1890ee1e76dc86637173eab6064a07ca",
+   "image_sha256": "0fb065dcbdd83536e43a7e826f186013cfaf2f0d1391fd31b374cff2b36de5cc",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "steak"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "chips"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "b0f1eb26610925a3e8321948dd2d5a4ef9741f23132dc7ad91fecfeedb7c55c9",
+   "image_sha256": "a0baf2c5550fbeb2f826c81eb0e11b15903d1e6508e2071971dc68922982bd90",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "liquor"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "rolling_pin"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "6c065697d0706e814e4bb6f0f661c953654e3695d317f812e217e7e47f8c57a3",
+   "image_sha256": "d7a4aca6f8ac3ad7d409d7dff3c5dd188a4a42e0910524d75c0ebb9f36b3a75e",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "coffee_cup"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tray"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "9a44026d8aa1bb4829599feb0d4b158a3695e2e92055a269f0be2fc93e263a7d",
+   "image_sha256": "01a9e18dabb3fbe07067107ad4c6d64659c15a18212fa9d2215f4e0dc2ad03cb",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "pot"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cake"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "coffee_cup"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "1f316d72efa9603434f164806d34d1d1af5ab9cfe32861a89a6c75d05aa30852",
+   "image_sha256": "cbdf825d1eb134d086e832ced406d44e12d7fc9fd3ef2ea984053817dc834f72",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "kettle_non_electric"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "baguette"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "jam"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "4d212be651b44a1fdb0ae9d753e75c035a4ef929e54d084c8bfe75eae9c492bb",
+   "image_sha256": "a847fb7eed99e53a6ad755742282d4043d45656d9ccd93ee5025626b813a478f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "avocado"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "bar"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "sweet_potato"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "3aa302643497d6604b134478e0528a50904fd7f4c56714693544bb910e68787b",
+   "image_sha256": "7eb692cab3bc673121f04585f402a4e4abb159c53696bac61a29b00955be9a17",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "corn"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "e3be093c733cb7048692cf230154622d12750fdc77216f98ba8c3b2b77ca1737",
+   "image_sha256": "7cbe623feaab944c4f2d01f4f9738c366db8b8ac5c9b1f0905cd7f7facac3058",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "eggplant"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "hot_dog"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "1323da57bee30aeb1ddfee98c3d838ad3bcb8f6f4d92edf4209196d1d2e08d47",
+   "image_sha256": "a6f1f8d762d852ea9e1ed180a11486b56bf9262dea15067144bd0cf7f43ca4af",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "kiwi"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "waffle"
+    }
+   ]
+  },
+  {
+   "id": 100042,
+   "sim_state_sha256": "8f6c94cb87dba0ec251d59a4cb0678814d1cfa4a9700650587397b81c9484a8a",
+   "image_sha256": "95f5f5c1b40a766a9a25387ba30f15f78c0316196ab2479ad29952ab406b58ba",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "orange"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "candle"
+    }
+   ]
+  },
+  {
+   "id": 100043,
+   "sim_state_sha256": "f7e434ed86aaad3760605cf25610844c4340526217f3afd945822fbbe8d6af0d",
+   "image_sha256": "fba97a9cb3d9463092051e3f913509c48d4aa848d81e36575e9cecaf9a2a96c0",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "close the cabinet door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bowl"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "potato"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "c2be010de19c7c294b1ce8f3854e87ca04c20a6717566dd5e2a851e1cba2db0d",
+   "image_sha256": "fe22b249058856ffdc7540bf1ab0fad351e292493cb9ab842932fe1851a8d296",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "bell_pepper"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tomato"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "0922f7fbafb2b7d1ebbe252814ee103b50edb2cf4bb8b4dad5deb84ff161e63c",
+   "image_sha256": "849f7170e951a00908f579c114e82bee280e69543541de4eb64b3efd45c4d955",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "carrot"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "fork"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "ladle"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "tangerine"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "ef7c495c0de2db80fcb54cba0aabb109558c16eda00bc19511cf77e4f0547add",
+   "image_sha256": "0b32e8090c2e986c38af4b03ef883cbb6d7783b4ebcf79cd0c73fcf5079706cd",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "broccoli"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "bottled_water"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "spatula"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "aae0498ddc6569b5159cc373180ff8f8fa4572f94464e7dc71b0c94f7eaf836a",
+   "image_sha256": "820a97404c18a2ddad4602fe02f5d04e626a27fe987570a3827cb6e0618da0e9",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "canned_food"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "shaker"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "9d2c2eeed1657980bed3c3faadb5935adc414d507ca5aa51901755669c761327",
+   "image_sha256": "b985ac5c55a718c1b13c35440618197b4a5214c0f3663f4a443366ab1916f62c",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "hot_dog"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "tomato"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "beer"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "c8bc83cb03cde6b0d2035c17f44282005498ccd39783d082aa712456712985b0",
+   "image_sha256": "88cba62f4bbb61ba4d2f69e6ec074f8a397e15bed4ae64f1e8b73ea75842aecf",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "close the microwave door",
+   "objects": [
+    {
+     "name": "door_obj",
+     "category": "mug"
+    },
+    {
+     "name": "distr_counter_1",
+     "category": "mango"
+    },
+    {
+     "name": "distr_counter_2",
+     "category": "cereal"
+    },
+    {
+     "name": "distr_counter_3",
+     "category": "jug"
+    }
+   ]
+  }
+ ]
+}

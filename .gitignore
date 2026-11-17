@@ -1,0 +1,20 @@
+# run products, data, caches and checkpoints (top level only: scalevla/data is source code)
+/outputs/
+/data/
+/models/
+*.safetensors
+*.pt
+*.npz
+*.npy
+*.pkl
+
+# environments and build products
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.DS_Store
+*.swp
+*~

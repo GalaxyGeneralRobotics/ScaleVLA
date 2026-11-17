@@ -1,0 +1,742 @@
+{
+ "task": "TurnOnStove",
+ "env_name": "robocasa_panda_omron/TurnOnStove_PandaOmron_Env",
+ "split": "val",
+ "method": "inner.rng = numpy.random.default_rng(id); env.reset(); ids scanned upward from first_id, the first per_scene ids per eval scene kept",
+ "scenes": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   6,
+   9
+  ],
+  [
+   7,
+   10
+  ]
+ ],
+ "per_scene": 10,
+ "first_id": 100000,
+ "ids_scanned": 64,
+ "scanned_per_scene": {
+  "1,1": 10,
+  "2,2": 12,
+  "4,4": 16,
+  "6,9": 10,
+  "7,10": 16
+ },
+ "created": "2026-11-04T21:38:44+0800",
+ "duplicate_states": 0,
+ "initial_states": [
+  {
+   "id": 100000,
+   "sim_state_sha256": "79300840424ceff8ade4d60b67361274c966cc256645d9301ea7890651c90fc4",
+   "image_sha256": "f2072ee39c6209c50a86f1953643a2245d3a09d6802570982e1eebc01a8e84c3",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100001,
+   "sim_state_sha256": "05d1b6000a3c5e13e809accf8206c40ffe9e4b462d0d8e0aade052bde8663824",
+   "image_sha256": "c35908077909ac1b837fbf155d9d6f74d4ad26d70861cce424c82bef8b0d67e6",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100002,
+   "sim_state_sha256": "dd1df78b8a4b3b9eaa7192461cafa9bdec06c0917c31a20f2dd4022978314f2d",
+   "image_sha256": "f1b1cb63800744bcd77012f405e50e1c0bbd3458bd58d7ab6dca9b276c11eba4",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the rear center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100003,
+   "sim_state_sha256": "f6be0a4b28bf509271da862f3480cab4901e50596c2ff3a544acbd5c38246ba0",
+   "image_sha256": "0766d72fdae58328d6dc72c362f29a28398219dbee2d580b96d35a00de6a764c",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100004,
+   "sim_state_sha256": "d27aaf3d10e9a2b6aecd239c80d6070dd9cb8a3e0a81a95399812a550699ca32",
+   "image_sha256": "e8c4b90096ab939c415f8647f3ffbe27db4740bd78de5472e1e6b52088923570",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100005,
+   "sim_state_sha256": "998599b4756caaa2a9a88c81072bf70bc71e18bfe5c4c32d2783278876e5d0fc",
+   "image_sha256": "265128268cf0dee6e5c5f45168cb55396dc9e461762ab9440c9b766dde39dd61",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100006,
+   "sim_state_sha256": "ea681ebf39be13452bbbc69aec99db9a58ca9312e3a68eab8654073c31b77147",
+   "image_sha256": "3401d4112e13e0bcd5a5fa67434d2a6c3f437e5d6bde979cee903c3c5c48c32a",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100007,
+   "sim_state_sha256": "8abd2703e08a0d718416daeaa64c893dc00f5b38db7673e221e2ce14ab3ef6c4",
+   "image_sha256": "1e2bdce56428717848fdbefde6b9c1b89920cbdd7dbf64808373e6058ed98352",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the rear right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100008,
+   "sim_state_sha256": "52c07f68c4201ad4a08875c9dd470b9955313a3322ff4850f125c3f263e6a254",
+   "image_sha256": "fb9b9991704f529bd25e3e09db37dff3eeee3b6c85b81f03e931f0452927da5b",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100009,
+   "sim_state_sha256": "1553717723244e65fb90c8c4b4bf58a08d5f67da39aa6386a17a575b5f25dd34",
+   "image_sha256": "7953000e5ad16305c53d900731fbfd7ff1db0f1e7539d81d2a81937d5ca636d7",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100010,
+   "sim_state_sha256": "72d0df320a5f6483890637b56ff275927089fd4f39619da7116f29cf0824873c",
+   "image_sha256": "d42610eea0af1abb30431598b46734900a5188ceef5564b1c60a8bd32f0b3b41",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100011,
+   "sim_state_sha256": "334dda7f211140299464fbc31238c9496d8402d1bdd925f5af36700179ddb0c4",
+   "image_sha256": "43c2275536fa98926c17ace7c07dd8b011740dd6a315939a839683e8732b4883",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100012,
+   "sim_state_sha256": "4e99b825c315ee52394f1db83b6306b3716f9538d55f6fa848a84d7b79ab683f",
+   "image_sha256": "9ae4c83500c1322676481e7a10236e6c2c7f7ea58a2c5557fe05dac68807ebab",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100013,
+   "sim_state_sha256": "8dcee42f2abbc3acd29921f7cf67cb7f560285dbcc337ebacb5af11c38630f52",
+   "image_sha256": "88529cc7917b1e222df742060a1badd2a5a76e36dbe0b87cb0c4380fb928eab5",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100014,
+   "sim_state_sha256": "82d6bbedb589f883b11bd27e49a1cfcf16ad5f95892313dee71635ae860f202b",
+   "image_sha256": "77409f085dc41c349f6b08c0133e7d3e20d10af5043272d8752d229cb3c43dd3",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100015,
+   "sim_state_sha256": "894305c6126071a535532b8efaba82c2214ac0d2ba24a50df8cd600cf55a4762",
+   "image_sha256": "b2cffca181f31b6448a30953529b62c053bec1f196dd07e84f7fe1f507a17d16",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the rear right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100016,
+   "sim_state_sha256": "3dbe3217951518332011468a98d1d56b3dd0a7de2c4d96ef72fc6532f32ab624",
+   "image_sha256": "e2c9168585c067cefcaeea1376d522fbaf8d94cf2cfb18272e126c7eefd217e4",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100017,
+   "sim_state_sha256": "034052acdf2c203fbd7e1c3288cd43557530057d8ea07d03be97ea6abe07d904",
+   "image_sha256": "0058317161c9707e3d253dd1d0aa592285b0ae61ae0d32a6183e23267ae91b36",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100018,
+   "sim_state_sha256": "ef902449002c81bf95e1109a5f9ab73cdf1ceb833d6c957504108264c391237c",
+   "image_sha256": "897a6a518ea3d4e21e84f68301ebdebc8de15439b861f7a3e72bc5141f843e1b",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100019,
+   "sim_state_sha256": "3f44c8918b4c1c8ebe4a599266e6b5ad0cd638abf4254e0ef16172f2c02b3ec2",
+   "image_sha256": "d04794730aab210dd992aff99bd258d2844ffb9dbbfcb27270bcfe6618671af6",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the rear center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100020,
+   "sim_state_sha256": "71957bceedb082bc1eec6a73cc3cdb9f97730100789c8d14288577e1008dda30",
+   "image_sha256": "b56b51fa5147080a5785c3309489c3441650ac8257be7b0518c305feb4acf3aa",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100021,
+   "sim_state_sha256": "e0faaa2a9519635e5481ca362a89539eadda95f502f111d86196b0f0850e029b",
+   "image_sha256": "f8a32d3de8458460528996a0627925277f8958faef5987aeb415192bf708ca7b",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the front center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100022,
+   "sim_state_sha256": "b291daeef2ac045527868ee8fa6f866c18a49232a7dd64122bd015294ae27bd0",
+   "image_sha256": "c7f37804a66782b5b6306d0313248447f07f7c48cccdaefe32485563dd4b13ce",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the rear center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100023,
+   "sim_state_sha256": "44a4f5d3196ba4067e2a079641c172fdb1397d6f20c681527df7c24195cb92ff",
+   "image_sha256": "d9112040905df91a923a2e8a3cd5c88bf487855be34c06c10f5a7b650fc1460f",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100024,
+   "sim_state_sha256": "79ab35c51ff6acbaa4fb409fed5e2b33e02f5cb6d5779c0dc43f255a80ec546d",
+   "image_sha256": "ac3258c18f0fe95f4173089ce1be51e24a21e1af98a2f6a2fb681d1a8a0e320d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the rear center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100025,
+   "sim_state_sha256": "fa2aeb34013cabdc0da09365f5f3511e504f644eb21206d2e95fb1b5fcdfecd8",
+   "image_sha256": "8dc4b15c5b967c640d3a02218446e8968a9ccecaadc33f57eaf18c6520c7f92a",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100026,
+   "sim_state_sha256": "6574a0413c5fad0464b89a634e4b8930f1de6ac1a5487b3d53fa12a49d8b106f",
+   "image_sha256": "5514768923a173e1eee776cd211cb2c5d8c83fc7f686f2021c199143a73f3d1f",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100027,
+   "sim_state_sha256": "ff6ea46353734fda76d1f173a7c2a8da21f47aab4b7d3e3d4b2402dad625f77c",
+   "image_sha256": "a003d20e402bbb2598590ff3ce0c8bd0a8fe4b5d58907bde2af530a13570cc8b",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100028,
+   "sim_state_sha256": "aca1351c5605d56a4ccded4ad1d3b3c0f3e7e8e959a7f4ed683cf02e4b1848bc",
+   "image_sha256": "ea93a8006fcd4c70184c51d671c4a902432f6a90b88a93b0aa8b891fa3c605bf",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the rear right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100029,
+   "sim_state_sha256": "8b611e5bbbc58feb1f3917a7394947db8740eead5ac3a1d87fa2aed0230a4b94",
+   "image_sha256": "180ee75bb385e484bf4620d2b49d638a837d6d9453e61566202ed66d25ca0b23",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100030,
+   "sim_state_sha256": "78145275a0f24ab4e04dba44a4d62b978cb75df5749eeb5c7ff91b1d717126a8",
+   "image_sha256": "bfc1d78676ae019b168433238e92d5b5cfd242a5cb9311f2bbc3534dd1de1270",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100031,
+   "sim_state_sha256": "758ed742b47eb41fe52185fd60fc9ec039f2db8bccc6399106d29cfc44e55568",
+   "image_sha256": "658c6aba4537afdfa9b8185198422b391d7f40422cbd09e0a27f68cbac6e4eda",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100032,
+   "sim_state_sha256": "5e022024c2fbe3d9f1c6be51ab97bb6051b691ad451a3fa9f17688d6d0685980",
+   "image_sha256": "6c3926ac83c73ac27df7dc1106a16b7f4bc57c4bf8779541bbff647df3bd4016",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100033,
+   "sim_state_sha256": "10491b5708cfc79ae3d56dc90cb8b0b1556cf4f8e2f64006c54534ad2e5a914e",
+   "image_sha256": "56a97d4df1f123b2ec6ac69c9f27c30a71b1ef4240292e26281e9d816cc2e583",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100034,
+   "sim_state_sha256": "24994813e66193fc5181f9a3df86096f667393080ba2aa4585fcbf15acd6f8fc",
+   "image_sha256": "19e8ea5566326363980e182c0ce13ece28527a65068b1abf7521dbd7326e4b3f",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100035,
+   "sim_state_sha256": "dc171224ebd75696b1b13233d909fe3f2644efb4676ee653eb658afde462b34a",
+   "image_sha256": "d7afbd90bb48fc889a2052d3e8ca0e54d1d857fd6462af042c8bcd3366ec9402",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100036,
+   "sim_state_sha256": "fd4072700e41a582db4f1495c5acb115e2a5febd9c22f4bcb9e9cac5d4ea50ca",
+   "image_sha256": "9d7d192e33672305912141b651581287581bc2163f63820a5ddc4b452c2571ee",
+   "layout_id": 2,
+   "style_id": 2,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100037,
+   "sim_state_sha256": "23d862d833718ec6e13c99d5231366f5cc0b6187c1777ba022ee4b8e697c2b08",
+   "image_sha256": "2d50d509d983ded2dbf9571598e23c75b4d72692bc3c809a370e8e049372b4c3",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the rear right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100038,
+   "sim_state_sha256": "942188238f57acc19561fb14d8f2d7cac67251869ad5b9c5df2e07c258831c05",
+   "image_sha256": "91ff3a251592f49e98c12dab069cd768be9ef5a7dc5efca374d6709a89460f5d",
+   "layout_id": 7,
+   "style_id": 10,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100039,
+   "sim_state_sha256": "481c039c990ba8016f1c4446292c1c730452cafeda7edca6588b41668dc33f82",
+   "image_sha256": "f760bae1fda14462708d50a9e4b9919267960fccca2a05b34f322d356eb0095d",
+   "layout_id": 4,
+   "style_id": 4,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100040,
+   "sim_state_sha256": "f7b5899d277f6f02809e59ec1015afefb7aa51b26238f7f7cda3c2e39291333a",
+   "image_sha256": "8adbed767acc42d415829da8a6a5aa0d72ef77c528ee966c4c039d1b9f194c90",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100041,
+   "sim_state_sha256": "6eb35b802d37391f0fe17c1195c04dca386ab8ea7f0c5392fff6809ca008f00a",
+   "image_sha256": "8068176be4986aac8f5c8c78a41401f7c0609f861516b191fdcade0149736464",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the front center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100047,
+   "sim_state_sha256": "93fabe680118649f1844264609fa1871bfce59a5ccb866ac40115e6359e87fc0",
+   "image_sha256": "6af4c4ddfe68d1a0444837c71350ef4e417664f6b83585bbd5957fefb33bb2ab",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the rear left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100050,
+   "sim_state_sha256": "550230d2f0385787ae05c0eefcc749a43dca7b8efe75839e643eed1a12ca3fec",
+   "image_sha256": "0a88cbbafd5eef102647803f5a067ad2703e6b27d1ac83b9e86cd758955f9670",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the front center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100051,
+   "sim_state_sha256": "28b50706cae440e372497be6bb602cb896a35f20f524e6fd0238150075664046",
+   "image_sha256": "d74f0b47449ca0a69c6e6e2f7b5d1d6223a07ff7ca48bd4576ced1c534434be2",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100052,
+   "sim_state_sha256": "0b8c6423956ee84b52677491988912c6ae4bc9327cf20a6afa2ed03fcb3f0aef",
+   "image_sha256": "8007cb003806506b4f1f676aeeccb741fd9ee2a4dfce70f3bbcef2148c7784a5",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the front left burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100056,
+   "sim_state_sha256": "49ec9eaa49ec63d90d5eb215c97e65021cebd5343df5d2d6fe687ed9c11d5686",
+   "image_sha256": "48ebff6ac0fa3a9319d90d3eb7bd6a59a2cfffa37780362d651a0fad1617dc11",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the rear center burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  },
+  {
+   "id": 100057,
+   "sim_state_sha256": "9660e55eee9e2c0d611c1bb1cf95e49fe3c2a34a2c854fd2374cf524780d3ea3",
+   "image_sha256": "00a07311253f970d95f9427072c85d367afd802891b3bfe0479f986cd8fb27d8",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "kettle_non_electric"
+    }
+   ]
+  },
+  {
+   "id": 100059,
+   "sim_state_sha256": "03c7b0656e2858e80487f45763178995d283fbaeb433493286f2c74eab66e477",
+   "image_sha256": "dee57d42187c10172ca4141310713f4656e8d6c80e9a77ba80490a43541545da",
+   "layout_id": 1,
+   "style_id": 1,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pan"
+    }
+   ]
+  },
+  {
+   "id": 100060,
+   "sim_state_sha256": "d07393ac5344a001bb833b4251ea27adab28267a7a615879576e06429b297b5d",
+   "image_sha256": "cc912beb2c01afc6586d0420ce8f66dd2a7ba3cc74ab841f1c9e7ef1f1920038",
+   "layout_id": 6,
+   "style_id": 9,
+   "lang": "turn on the front right burner of the stove",
+   "objects": [
+    {
+     "name": "cookware",
+     "category": "pot"
+    }
+   ]
+  }
+ ]
+}
