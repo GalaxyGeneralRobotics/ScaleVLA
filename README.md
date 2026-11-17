@@ -5,6 +5,7 @@
 ### Scaling Vision-Language-Action Models to 552 Billion Parameters
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2611.21607"><img src="https://img.shields.io/badge/arXiv-2611.21607-b31b1b.svg?style=flat-square" alt="arXiv"></a>
   <a href="https://galaxygeneralrobotics.github.io/scalevla/"><img src="https://img.shields.io/badge/Project-Page-blue.svg?style=flat-square" alt="Project Page"></a>
   <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"><img src="https://img.shields.io/badge/Backbone-DeepSeek--V4.1--Flash-4d6bfe.svg?style=flat-square" alt="Backbone"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat-square" alt="License"></a>
@@ -205,10 +206,11 @@ ScaleVLA/
 
 ```bibtex
 @article{scalevla26,
-    title  = {ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters},
-    author = {Yu, Ruixi and Liu, Dairu and Chen, Xuchuan and Qi, Zekun and Li, Zekai and Cao, Zhuo and
-              Niu, Luyang and Zhang, Yingsheng and Liang, Sikai and Fan, Ke and Wang, He and Yi, Li},
-    year   = {2026}
+    title   = {ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters},
+    author  = {Yu, Ruixi and Liu, Dairu and Chen, Xuchuan and Qi, Zekun and Li, Zekai and Cao, Zhuo and
+               Niu, Luyang and Zhang, Yingsheng and Liang, Sikai and Fan, Ke and Wang, He and Yi, Li},
+    journal = {arXiv preprint arXiv:2611.21607},
+    year    = {2026}
 }
 ```
 

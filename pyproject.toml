@@ -16,6 +16,7 @@ train = ["safetensors", "pyarrow", "pandas", "av"]
 
 [project.urls]
 Homepage = "https://galaxygeneralrobotics.github.io/scalevla/"
+Paper = "https://arxiv.org/abs/2611.21607"
 Repository = "https://github.com/GalaxyGeneralRobotics/ScaleVLA"
 
 [tool.setuptools]
